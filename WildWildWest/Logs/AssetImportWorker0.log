@@ -1,0 +1,2321 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/respin/6000.3.6f1-732c1ec89f18' branch; Version is '6000.3.6f1 (bbb010bdb8a3) revision 12300304'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 65377 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-SandrPK" at "2026-02-28T00:48:40.0981626Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-02-28T00:48:40Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Git/WildWesNew/WildWildWest
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56469
+-licensingIpc
+LicenseClient-SandrPK
+-job-worker-count
+9
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Git/WildWesNew/WildWildWest
+D:/Git/WildWesNew/WildWildWest
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [14036]  Target information:
+
+Player connection [14036]  * "[IP] 192.168.31.205 [Port] 0 [Flags] 2 [Guid] 574955249 [EditorId] 574955249 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1PH6TL7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [14036]  * "[IP] 172.23.77.253 [Port] 0 [Flags] 2 [Guid] 574955249 [EditorId] 574955249 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1PH6TL7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [14036] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [14036] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.6f1 (bbb010bdb8a3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Git/WildWesNew/WildWildWest/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12115 MB
+    Driver:   32.0.15.9186
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56640
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004691 seconds.
+- Loaded All Assemblies, in  0.689 seconds
+Native extension for WindowsStandalone target not found
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              cf1b2b5fc9cb412fbbfb47e49c12592d
+  Correlation Id:          ee93721c96b43a03f11ba41e08dc39f0
+  External correlation Id: 4633359686703546390
+  Machine Id:              gPjsaBxfq++enN07Opp1KJQzBIQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-SandrPK" (connect: 0.00s, validation: 0.00s, handshake: 1.74s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-SandrPK-notifications" at "2026-02-28T00:48:41.8398695Z"
+[Licensing::Module] Licensing Background thread has ended after 1.74s
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.781 seconds
+Domain Reload Profiling: 1462ms
+	BeginReloadAssembly (223ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (82ms)
+	LoadAllAssembliesAndSetupDomain (292ms)
+		LoadAssemblies (213ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (288ms)
+			TypeCache.Refresh (286ms)
+				TypeCache.ScanAssembly (265ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (782ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (701ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (78ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (175ms)
+			ProcessInitializeOnLoadAttributes (310ms)
+			ProcessInitializeOnLoadMethodAttributes (133ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-2GBK-3RMW-V3YA-3T7S-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 10170700296588-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.552 seconds
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-WildWildWest
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.384 seconds
+Domain Reload Profiling: 2922ms
+	BeginReloadAssembly (365ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (80ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (995ms)
+		LoadAssemblies (744ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (459ms)
+			TypeCache.Refresh (321ms)
+				TypeCache.ScanAssembly (297ms)
+			BuildScriptInfoCaches (116ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1385ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1060ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (255ms)
+			ProcessInitializeOnLoadAttributes (676ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6774 unused Assets / (4.5 MB). Loaded Objects now: 7615.
+Memory consumption went from 151.8 MB to 147.2 MB.
+Total: 16.473400 ms (FindLiveObjects: 1.819200 ms CreateObjectMapping: 0.859100 ms MarkObjects: 10.417500 ms  DeleteObjects: 3.376200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 888.687863 seconds.
+  path: Assets/Scripts/BulletData.cs
+  artifactKey: Guid(553d8889f7cab2e4090e294c2cd5a5ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/BulletData.cs using Guid(553d8889f7cab2e4090e294c2cd5a5ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '229a15c713cbb51ea734beb0a0b3780e') in 0.1405456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Audio/Dead.mp3
+  artifactKey: Guid(779a4ddf2a2bf4742a4e3cdc29503a16) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Audio/Dead.mp3 using Guid(779a4ddf2a2bf4742a4e3cdc29503a16) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f31e3b9908ee4a349e6c112859acece3') in 0.079338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GameSettings/PlayerSettings.asset
+  artifactKey: Guid(d869756ca3b2d8745a5892d55c8bc1ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/GameSettings/PlayerSettings.asset using Guid(d869756ca3b2d8745a5892d55c8bc1ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd1ed8f0ce7107015da13bcfcd5ec40e9') in 0.04027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Animation/Character/CharacterHands.mask
+  artifactKey: Guid(ce0c9f5f4275b9144ba1db61e1581d15) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animation/Character/CharacterHands.mask using Guid(ce0c9f5f4275b9144ba1db61e1581d15) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '94b1678f37bc6dbd8fd773e649e79e30') in 0.0167979 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scripts/PlayerUserInterface.cs
+  artifactKey: Guid(54b48d0b43ffb1b49b600e3c685f6cd2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/PlayerUserInterface.cs using Guid(54b48d0b43ffb1b49b600e3c685f6cd2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '81c28334a78f290b24f4a6ce3045cae5') in 0.0137104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Animation/Character/Run Forward.anim
+  artifactKey: Guid(04823d76f6d56c944b2d57c79cdfcf0d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animation/Character/Run Forward.anim using Guid(04823d76f6d56c944b2d57c79cdfcf0d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'af35d02e953e9509fab4f6949208a812') in 0.0448431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Modern & Clean GUI/Modern & Clean HUD Rounded.psd
+  artifactKey: Guid(42f54622913da37469e352ec534bf81e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Modern & Clean HUD Rounded.psd using Guid(42f54622913da37469e352ec534bf81e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '948c34f1ff34d991d9ba561a4196b4e9') in 0.1029494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Modern & Clean GUI/Buttons/Button_TickBox_On.png
+  artifactKey: Guid(0f38d21614830d840bcc91fe8a8eeab2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Buttons/Button_TickBox_On.png using Guid(0f38d21614830d840bcc91fe8a8eeab2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eab7fffe736859ca6176bf8d2a107c1d') in 0.0185333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Modern & Clean GUI/Buttons/Button_Radio_On.png
+  artifactKey: Guid(6ebcbe8b33b4ab54f821872797847324) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Buttons/Button_Radio_On.png using Guid(6ebcbe8b33b4ab54f821872797847324) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '517b0693318f105da51b8f95c6b1be1b') in 0.0195726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Modern & Clean GUI/Buttons/Button_Radio_On_Rounded.png
+  artifactKey: Guid(2924c58a15bf1db4183babcb89da19b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Buttons/Button_Radio_On_Rounded.png using Guid(2924c58a15bf1db4183babcb89da19b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aec7a6a2bdb4dd03859131b5c641468d') in 0.0255533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Modern & Clean GUI/Cursors/Cursor_Rounded_1.png
+  artifactKey: Guid(dc447985015ee0744a767591afdab2f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Cursors/Cursor_Rounded_1.png using Guid(dc447985015ee0744a767591afdab2f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1cca7a5106433057dbcc818724c85d6c') in 0.0232687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scripts/Bullet.cs
+  artifactKey: Guid(dc175988830705e4d8788d15cb30c4bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/Bullet.cs using Guid(dc175988830705e4d8788d15cb30c4bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c3dfec65bad4f208e5e8bcc8a44ccc46') in 0.0126455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Modern & Clean GUI/Buttons/Button_TickBox_Off_Rounded.png
+  artifactKey: Guid(ed56192304678434796b0f9b994878df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Buttons/Button_TickBox_Off_Rounded.png using Guid(ed56192304678434796b0f9b994878df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '840ce7873c8d9083cf7d60a3aa606ccb') in 0.0194657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scripts/Rifle.cs
+  artifactKey: Guid(45fd29b75477f8e4d9cb7b4d07879932) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/Rifle.cs using Guid(45fd29b75477f8e4d9cb7b4d07879932) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '26def4e645d022d9291fb2ec040a3878') in 0.0121823 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Modern & Clean GUI/Buttons/Button_Main_NoHover.png
+  artifactKey: Guid(e12a94c90aecd784c9b96dd752fc703e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Buttons/Button_Main_NoHover.png using Guid(e12a94c90aecd784c9b96dd752fc703e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fe179c79f8c65e3beca1f0ea3e2e5971') in 0.0225231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/AK48.prefab
+  artifactKey: Guid(564efb0c8f1984a44b0ae93e650d1899) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/AK48.prefab using Guid(564efb0c8f1984a44b0ae93e650d1899) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3891f8ad998749c4525e63dc90ea8d08') in 0.0744378 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Scripts/CameraMover.cs
+  artifactKey: Guid(8bef954132335c44a82119c9af05e352) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/CameraMover.cs using Guid(8bef954132335c44a82119c9af05e352) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '88cb17e0ca6f1ef66849b5be7021af85') in 0.0149512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Modern & Clean GUI/Modern & Clean HUD Rounded.jpg
+  artifactKey: Guid(927188d68fb1ca3469123e83e34531e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Modern & Clean HUD Rounded.jpg using Guid(927188d68fb1ca3469123e83e34531e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f4bf3e1a4120f428f90936fdb3f732df') in 0.0371637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Modern & Clean GUI/Buttons/Button_Main_Hover.png
+  artifactKey: Guid(09a22108cae6a8646922686beba54cf7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Buttons/Button_Main_Hover.png using Guid(09a22108cae6a8646922686beba54cf7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b5454411b26af5edceaff74db22aabc7') in 0.0280811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Modern & Clean GUI/HUD/HUD_ActionBar_Frame.png
+  artifactKey: Guid(d8b12beed994cee4d8af7d172e43f10b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/HUD/HUD_ActionBar_Frame.png using Guid(d8b12beed994cee4d8af7d172e43f10b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '30f56d5ff6f07add081d44bc1602e308') in 0.0200832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Modern & Clean GUI/Cursors/Cursor_Rounded_3.png
+  artifactKey: Guid(16c318e920fc9434fb0a3f72398badd6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Cursors/Cursor_Rounded_3.png using Guid(16c318e920fc9434fb0a3f72398badd6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9c1765505bcae3e5db891f89d25df30e') in 0.0188037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Modern & Clean GUI/HUD/HUD_Radar_Base.png
+  artifactKey: Guid(85a43fe344f303d48bfe6a04ca78b733) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/HUD/HUD_Radar_Base.png using Guid(85a43fe344f303d48bfe6a04ca78b733) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ce4434ec3510d051a3b5d1ffa94c0231') in 0.0198052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Modern & Clean GUI/Modern & Clean GUI Features.jpg
+  artifactKey: Guid(f02ae026f85ece842ab30f54d883c2c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Modern & Clean GUI Features.jpg using Guid(f02ae026f85ece842ab30f54d883c2c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8910ce7fb961669c573be840797f7a93') in 0.0302062 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Modern & Clean GUI/HUD/HUD_Endurance_Empty_Rounded.png
+  artifactKey: Guid(01b60619305c9a74aa03d0c3263c0f63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/HUD/HUD_Endurance_Empty_Rounded.png using Guid(01b60619305c9a74aa03d0c3263c0f63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'da42f1b09c5d7972b7890c2b4bfca059') in 0.0244187 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Modern & Clean GUI/Menus & Windows/ScrollBar_Frame.png
+  artifactKey: Guid(ba89494f20c7dad40922d04142939c46) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Menus & Windows/ScrollBar_Frame.png using Guid(ba89494f20c7dad40922d04142939c46) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9b5b7762a2cae434022cd17835ade3f3') in 0.0180326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '40b0e8e481591717e984170aac34c733') in 0.0126621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scripts/AimTargetMover.cs
+  artifactKey: Guid(3fec9535e3eda074c8ebe613a90a5326) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/AimTargetMover.cs using Guid(3fec9535e3eda074c8ebe613a90a5326) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0c741b6aa9cfc01bd5b8196269401772') in 0.0129569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scripts/Weapon.cs
+  artifactKey: Guid(b5f3cca8e6f0fbc4cb8af6da465d2164) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/Weapon.cs using Guid(b5f3cca8e6f0fbc4cb8af6da465d2164) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7b0a1339f2abf0740d296c68a6ee4d62') in 0.0115351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Modern & Clean GUI/Buttons/Button_Radio_Off.png
+  artifactKey: Guid(c299c4a91ed41614699d9f9ffdd42f38) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Buttons/Button_Radio_Off.png using Guid(c299c4a91ed41614699d9f9ffdd42f38) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ab77205030274a039e90b0319d1dced9') in 0.0219688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Animation/Character/IdleSword.anim
+  artifactKey: Guid(d1720015f41717a4d89be29b162b1178) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animation/Character/IdleSword.anim using Guid(d1720015f41717a4d89be29b162b1178) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8e7576d8989adae32ca0647128e9ac99') in 0.0303203 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scripts/EnemySpawner.cs
+  artifactKey: Guid(c84fc22940afc1543b199684e2fa48e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/EnemySpawner.cs using Guid(c84fc22940afc1543b199684e2fa48e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a1fced0b3c826d25a708fb0101fb843f') in 0.0168657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scripts/IPolledObject.cs
+  artifactKey: Guid(4fd321bc0f6af6140aa93b90e38e2fdb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/IPolledObject.cs using Guid(4fd321bc0f6af6140aa93b90e38e2fdb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd0cbd8e9da73556bf56fe1e0e5f469bc') in 0.0172065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scripts/Spawner.cs
+  artifactKey: Guid(434c0a7bd4f6f044587474c9653bb9c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/Spawner.cs using Guid(434c0a7bd4f6f044587474c9653bb9c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ece86f12b25686d934a54cbd68862f4b') in 0.0151893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Animation/Character/Run Backwards.anim
+  artifactKey: Guid(6baa036dd31f5d14c8f07777704ff5da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animation/Character/Run Backwards.anim using Guid(6baa036dd31f5d14c8f07777704ff5da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2dc4bdfb9b096cc82d995398bf16fa94') in 0.0253892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Modern & Clean GUI/HUD/HUD_Menu_Extended_Rounded.png
+  artifactKey: Guid(7a3f761d33f9f6b45a178cc533ca9d84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/HUD/HUD_Menu_Extended_Rounded.png using Guid(7a3f761d33f9f6b45a178cc533ca9d84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a1892b4d704687eb1a6965a5acbd26c9') in 0.0183342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scripts/BulletMover.cs
+  artifactKey: Guid(9fe2a5af48a53dc47bf97eaead149ad7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/BulletMover.cs using Guid(9fe2a5af48a53dc47bf97eaead149ad7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b5d633ea64ef6175a454356129f0b53b') in 0.0134072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Scripts/HealthBar.cs
+  artifactKey: Guid(fe6090a8b30a4034780a533da38a2a99) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/HealthBar.cs using Guid(fe6090a8b30a4034780a533da38a2a99) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8beae9b5169aa547eba9875c2e91f0ce') in 0.0126844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/FX_GunSmoke_01.prefab
+  artifactKey: Guid(342cfa490ff0e964e97f5c98b2680c4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/FX_GunSmoke_01.prefab using Guid(342cfa490ff0e964e97f5c98b2680c4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f5e61232970d1c0eb9226d086ff6108e') in 0.1153015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Bld_Fort_Wall_02.fbx
+  artifactKey: Guid(f1ced85c9d85cd144ad938b1f4f1108d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Bld_Fort_Wall_02.fbx using Guid(f1ced85c9d85cd144ad938b1f4f1108d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a3bba3bc06b45b48f90899e18c3532ea') in 0.0477115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Bld_Fort_Wall_01.fbx
+  artifactKey: Guid(31291321c09991642aee02585994199a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Bld_Fort_Wall_01.fbx using Guid(31291321c09991642aee02585994199a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '96ee5afc46eb9bd95090d15dd7917168') in 0.02663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Env_BackgroundCard_01.fbx
+  artifactKey: Guid(3dbcf04a0aa67db49868d50890ff5d4c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Env_BackgroundCard_01.fbx using Guid(3dbcf04a0aa67db49868d50890ff5d4c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ffb32b657c6fe181d4f0a60c986e05dc') in 0.0248679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Modern & Clean GUI/Menus & Windows/Window_Frame.png
+  artifactKey: Guid(b5af773554ef43a4f859d6e7d3513b58) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Menus & Windows/Window_Frame.png using Guid(b5af773554ef43a4f859d6e7d3513b58) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a85dcf5400e0059824accbcc96b7c62d') in 0.0207929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Bld_Steps_01.fbx
+  artifactKey: Guid(c82f21e2b5edea447885edeced0c2db3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Bld_Steps_01.fbx using Guid(c82f21e2b5edea447885edeced0c2db3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3bf580d344c0d35ad05d7bf080a1b3a1') in 0.0196244 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Bld_Quarry_Framing_02.fbx
+  artifactKey: Guid(6b5eb29a876084b4c8a8a6bae2210008) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Bld_Quarry_Framing_02.fbx using Guid(6b5eb29a876084b4c8a8a6bae2210008) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '30ef3f0ee1fbd0b3af9df5404874f9a8') in 0.0200158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Bld_Teepee_03.fbx
+  artifactKey: Guid(61f78f80461275440bdcb04efec74bec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Bld_Teepee_03.fbx using Guid(61f78f80461275440bdcb04efec74bec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cb0c4cf4a1edf05ca30adababbdef552') in 0.0326763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Bld_Fort_Stairs_01.fbx
+  artifactKey: Guid(7e68d14786e85e34798c6176f273f6b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Bld_Fort_Stairs_01.fbx using Guid(7e68d14786e85e34798c6176f273f6b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2bfc2a97f35d1afb5ffa25f6c4a6da4e') in 0.0212193 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Modern & Clean GUI/Sign In Squared/Facebook_Frame.png
+  artifactKey: Guid(0e5809d5a088bb849a17b2c73fe88495) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Sign In Squared/Facebook_Frame.png using Guid(0e5809d5a088bb849a17b2c73fe88495) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'adaec01cf6eb2c1dd680c94471ef8c3a') in 0.0190711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Bld_Mexican_04.fbx
+  artifactKey: Guid(e1502eafda6674f459c8cb9722cb1f51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Bld_Mexican_04.fbx using Guid(e1502eafda6674f459c8cb9722cb1f51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '070b7aedf636287907ca573dc7817517') in 0.025787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Bld_Fort_Walkway_01.fbx
+  artifactKey: Guid(58831422bfdcc8b4ca2786544681eda8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Bld_Fort_Walkway_01.fbx using Guid(58831422bfdcc8b4ca2786544681eda8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4efcd95d0cceb5076cab904bff2204eb') in 0.0207098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Bld_Fort_Entrance_01.fbx
+  artifactKey: Guid(c31e49a11406adc499859fbd130115c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Bld_Fort_Entrance_01.fbx using Guid(c31e49a11406adc499859fbd130115c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '33d52d14884cd233e044a4572567cce7') in 0.0292022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonWesternFrontier/Materials/PolygonWesternFrontier_Texture_03_A.mat
+  artifactKey: Guid(707803dece342f34cb7db5c3ff81d7b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Materials/PolygonWesternFrontier_Texture_03_A.mat using Guid(707803dece342f34cb7db5c3ff81d7b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8b99e3d06cab2b0aeca3b51839c71b6d') in 0.0449966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(77ec17c5611345c4d870cd4713e21c59) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Sword.prefab using Guid(77ec17c5611345c4d870cd4713e21c59) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '177b41ec06d75447f4eb3223c9631cb5') in 0.032788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/ak 48.fbx
+  artifactKey: Guid(a269cab6596a0fb458e502327e54ad71) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/ak 48.fbx using Guid(a269cab6596a0fb458e502327e54ad71) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7079b6658b858a8d88ad4b7b7b2da7d3') in 0.0321905 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Env_Quarry_Wall_Straight_03.fbx
+  artifactKey: Guid(88b98e01e86a48c49a5e04e8d9968c5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Env_Quarry_Wall_Straight_03.fbx using Guid(88b98e01e86a48c49a5e04e8d9968c5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f0fedb010fff16f446d165825186a48f') in 0.0218158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Env_Cactus_Large_04.fbx
+  artifactKey: Guid(8e778af00aec5454fa3de1b23939b4c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Env_Cactus_Large_04.fbx using Guid(8e778af00aec5454fa3de1b23939b4c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e07c4a21e8a060ef49edba5640946b1d') in 0.0242792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Env_Mine_Wall_01.fbx
+  artifactKey: Guid(886fdabb28d10f6459e8a660285189cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Env_Mine_Wall_01.fbx using Guid(886fdabb28d10f6459e8a660285189cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '603da1bc873612b2d6d45d13d35d2586') in 0.0192419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Env_Cactus_Large_01.fbx
+  artifactKey: Guid(bc3ebc42333443e4184e60bdf60253fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Env_Cactus_Large_01.fbx using Guid(bc3ebc42333443e4184e60bdf60253fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd3d4b2ead8181b154e9c0ddba77ea4cb') in 0.0237569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Env_Mound_Slope_03.fbx
+  artifactKey: Guid(d04990c8e64b3f644a35f2284011422a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Env_Mound_Slope_03.fbx using Guid(d04990c8e64b3f644a35f2284011422a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e9036a8cdb02f4283c900d41a1924fe6') in 0.02284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Env_Cactus_Large_02.fbx
+  artifactKey: Guid(33ed01088a2bbb6469bce1e3beb79833) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Env_Cactus_Large_02.fbx using Guid(33ed01088a2bbb6469bce1e3beb79833) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8cceed94b728492444795d412a32e417') in 0.0197234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Env_Mine_Tunnel_Blocker_01.fbx
+  artifactKey: Guid(cfd09e2e88b9d7544a96c0847dee3faa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Env_Mine_Tunnel_Blocker_01.fbx using Guid(cfd09e2e88b9d7544a96c0847dee3faa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '21cf219093d6a55fac0145c91f668ed2') in 0.0193463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Env_Mound_Hill_02.fbx
+  artifactKey: Guid(a079f3ea12e6a70458edf1f5813d8603) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Env_Mound_Hill_02.fbx using Guid(a079f3ea12e6a70458edf1f5813d8603) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bfd5ab6c93b1c58b0c38f2a980687503') in 0.0203293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Env_Mine_Track_Base_02.fbx
+  artifactKey: Guid(026098008b0cd0748904a6a1eb875aa7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Env_Mine_Track_Base_02.fbx using Guid(026098008b0cd0748904a6a1eb875aa7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '24fb78691f716174c4437ec416d39f17') in 0.0190584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Env_Mine_Track_Base_Angled_03.fbx
+  artifactKey: Guid(a4ee6b9600082b74b96d4ca0c1881b48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Env_Mine_Track_Base_Angled_03.fbx using Guid(a4ee6b9600082b74b96d4ca0c1881b48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '53d5bd9282732f49f4c22ee645406df1') in 0.0231163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Env_Mine_Track_Barrier_01.fbx
+  artifactKey: Guid(267b90023bbc49d46a9e3634472c16e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Env_Mine_Track_Barrier_01.fbx using Guid(267b90023bbc49d46a9e3634472c16e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9f0553af14e378e01c6a6d5c34321d01') in 0.0185607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Env_Mine_Tunnel_Rocks_01.fbx
+  artifactKey: Guid(c2c54560b657a4041bee31e09443578a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Env_Mine_Tunnel_Rocks_01.fbx using Guid(c2c54560b657a4041bee31e09443578a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8907ea4ad04e146e93a1c66ce3324eac') in 0.0219458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Env_Mound_Slope_01.fbx
+  artifactKey: Guid(77a805ffa8ce15a4b8d893f209173eeb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Env_Mound_Slope_01.fbx using Guid(77a805ffa8ce15a4b8d893f209173eeb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '15a79a3b227a30d7aa52caace08738c7') in 0.0216286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Env_Mine_Track_Frame_02.fbx
+  artifactKey: Guid(fab3648db74be654489be14d9b54c9c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Env_Mine_Track_Frame_02.fbx using Guid(fab3648db74be654489be14d9b54c9c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aff20374c6e57af998402efa92b05b3c') in 0.020809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Env_Cactus_02.fbx
+  artifactKey: Guid(f0ab1c3a0929c1543ac108e6dd867c64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Env_Cactus_02.fbx using Guid(f0ab1c3a0929c1543ac108e6dd867c64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8db8fd4927cddddaccea2ff10788068b') in 0.0193357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Env_Quarry_Rocks_03.fbx
+  artifactKey: Guid(f7eb65e8e432f4d4a83e1c6e0a1aa3b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Env_Quarry_Rocks_03.fbx using Guid(f7eb65e8e432f4d4a83e1c6e0a1aa3b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd1005a9bebe412454bddebea37e98933') in 0.0225711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Prop_LogPile_01.fbx
+  artifactKey: Guid(8da3f385727d6124aa1f4010c1a0228d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Prop_LogPile_01.fbx using Guid(8da3f385727d6124aa1f4010c1a0228d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '62f933529685035d53a9b0eabea3ad59') in 0.0216856 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Prop_ChestFur_01.fbx
+  artifactKey: Guid(ab7010a3ddc7a8544aad80f4c234ec3b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Prop_ChestFur_01.fbx using Guid(ab7010a3ddc7a8544aad80f4c234ec3b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '191ec53d095b04b8a4aa19d09ffc3695') in 0.0269891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Prop_Barrel_Dirt_01.fbx
+  artifactKey: Guid(deaf98b12cb11874d927dca33a312f75) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Prop_Barrel_Dirt_01.fbx using Guid(deaf98b12cb11874d927dca33a312f75) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '57d607487c9780c3a770c188e9e87e5a') in 0.0208732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Prop_Fountain_01.fbx
+  artifactKey: Guid(4536931c1a7150f4d9b9c194b2536289) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Prop_Fountain_01.fbx using Guid(4536931c1a7150f4d9b9c194b2536289) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '198b1a17e0f6c45e58a9e9adcc40f185') in 0.0194259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Env_River_Straight_01.fbx
+  artifactKey: Guid(8002741e89f86224fb1af0f3b23bd2a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Env_River_Straight_01.fbx using Guid(8002741e89f86224fb1af0f3b23bd2a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '35f61bafbb8fe82236b41f711e5b3d3e') in 0.0191999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Env_RockFlat_04.fbx
+  artifactKey: Guid(38d76e7a606beb749aea5860279a6409) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Env_RockFlat_04.fbx using Guid(38d76e7a606beb749aea5860279a6409) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '81603709dde411ac3662aea19c17dd57') in 0.0178849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Env_ShrubGrass_01.fbx
+  artifactKey: Guid(cc509606fc8986c44a1fa04609fda746) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Env_ShrubGrass_01.fbx using Guid(cc509606fc8986c44a1fa04609fda746) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e8404c7be8c77557769d84fc05c5ceaf') in 0.027227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Env_Road_Patch_01.fbx
+  artifactKey: Guid(de4cd1bd0ba869e479f8e35d02ca3db6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Env_Road_Patch_01.fbx using Guid(de4cd1bd0ba869e479f8e35d02ca3db6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '04418329b946b1b967707a820200a24e') in 0.017529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GameSettings/BossRifleSettings.asset
+  artifactKey: Guid(a25fee28adf7adf4b8e109d89518a58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameSettings/BossRifleSettings.asset using Guid(a25fee28adf7adf4b8e109d89518a58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56445a3c2b6c2144b162b4eea976d4a6') in 0.0192626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Env_RockFlat_01.fbx
+  artifactKey: Guid(8794cdfa6a6ce8444b5c2cc404662fea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Env_RockFlat_01.fbx using Guid(8794cdfa6a6ce8444b5c2cc404662fea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '500bb6625276f4d6028c904eca4b3956') in 0.0191554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Prop_Lantern_01.fbx
+  artifactKey: Guid(a267f4a16473bf341b39e9d735f19135) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Prop_Lantern_01.fbx using Guid(a267f4a16473bf341b39e9d735f19135) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8c4cb24425271a7cc02835703a6a843b') in 0.0211844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Prop_Cup_01.fbx
+  artifactKey: Guid(00932973019731f4c8204060495a13bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Prop_Cup_01.fbx using Guid(00932973019731f4c8204060495a13bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a8e86805f48cb711879917ba14c3e94e') in 0.0194568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Env_RockTall_02.fbx
+  artifactKey: Guid(52713db198ddbcb4f873a1951a78387c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Env_RockTall_02.fbx using Guid(52713db198ddbcb4f873a1951a78387c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a6c8ba8b3766b5fd7c6e5836564b69ac') in 0.0236427 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Prop_Alcohol_Barrel_01.fbx
+  artifactKey: Guid(b9552302edcc4dc438842f20b17ced2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Prop_Alcohol_Barrel_01.fbx using Guid(b9552302edcc4dc438842f20b17ced2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f3b84e4338f8026492c9d19482fc4be1') in 0.0219115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Prop_Log_01.fbx
+  artifactKey: Guid(cd723228fd48cf4418de3835f413edf7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Prop_Log_01.fbx using Guid(cd723228fd48cf4418de3835f413edf7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a94d29df9451418b942f7318a1517b8f') in 0.0314878 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Prop_Quarry_Machine_01.fbx
+  artifactKey: Guid(dc5b907e64e71a94199a9629197459ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Prop_Quarry_Machine_01.fbx using Guid(dc5b907e64e71a94199a9629197459ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eac6a31afc47091c3ba202e4a8cea3f9') in 0.0198722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Prop_WagonWheel_01.fbx
+  artifactKey: Guid(9a96c2cdb9fb48943b848047ad2907ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Prop_WagonWheel_01.fbx using Guid(9a96c2cdb9fb48943b848047ad2907ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3e737a8f38a5f4ecf3bc15383b2f2591') in 0.0301463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Prop_Pipes_02.fbx
+  artifactKey: Guid(e81758c4ad21da74cafd27b8c7464143) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Prop_Pipes_02.fbx using Guid(e81758c4ad21da74cafd27b8c7464143) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '167071db9cc15ca0e7f2ae62cf2e86c2') in 0.0254567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Prop_PlantPot_03.fbx
+  artifactKey: Guid(4e011812c56a8c4408e820a61803f6cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Prop_PlantPot_03.fbx using Guid(4e011812c56a8c4408e820a61803f6cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a5cb8252775f7008272a11cd3e1d452d') in 0.0190923 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Prop_Weapon_Rack_01.fbx
+  artifactKey: Guid(dc9293d3b2ef81f4bbaa9ed1c9d62b14) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Prop_Weapon_Rack_01.fbx using Guid(dc9293d3b2ef81f4bbaa9ed1c9d62b14) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bbb0a0aae2c4e18f0cc625272c0c15af') in 0.0247042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Wep_Revolver_01.fbx
+  artifactKey: Guid(840c770388fb2cf4294d86a7be0418a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Wep_Revolver_01.fbx using Guid(840c770388fb2cf4294d86a7be0418a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '888e7811455b4c8389608e017c8327ea') in 0.0331582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonWesternFrontier/Textures/PolygonWesternFrontier_Texture_01_A.png
+  artifactKey: Guid(a30c0622dc6ccfa4da6f6f1486cf0789) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Textures/PolygonWesternFrontier_Texture_01_A.png using Guid(a30c0622dc6ccfa4da6f6f1486cf0789) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0d6460ec4251ea8c1ede92a55ff49042') in 0.0222235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scripts/Character/CharacterAnimator.cs
+  artifactKey: Guid(70e98339c6d855440aa4f37684919266) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/Character/CharacterAnimator.cs using Guid(70e98339c6d855440aa4f37684919266) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e9a3cc99ddfab7e2308b53d6d2ab49fb') in 0.0127343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Wep_Sword_01.fbx
+  artifactKey: Guid(b2f0ce24b44dfb844ae4f646a3c0acac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Wep_Sword_01.fbx using Guid(b2f0ce24b44dfb844ae4f646a3c0acac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '21df62cc925696dc014244e5f73c9d91') in 0.0246827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Prop_Pike_01.fbx
+  artifactKey: Guid(c15241fe3016a5f4d92dc0ebf042aba8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Prop_Pike_01.fbx using Guid(c15241fe3016a5f4d92dc0ebf042aba8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '464e0dd3125f3f157b0426ade63fc513') in 0.018822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonWesternFrontier/Textures/PolygonWesternFrontier_Texture_02_C.png
+  artifactKey: Guid(ce161ec075cb83c4f8f79f4731453f74) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Textures/PolygonWesternFrontier_Texture_02_C.png using Guid(ce161ec075cb83c4f8f79f4731453f74) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2e83b2ba5ddb942e9d02e64ccaca2620') in 0.0211152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Wep_Gunstock_01.fbx
+  artifactKey: Guid(981629d3fb75f5d4eaeef9b49705696a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Wep_Gunstock_01.fbx using Guid(981629d3fb75f5d4eaeef9b49705696a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f2a4148484212ea668544045889ca496') in 0.0201054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonWesternFrontier/Textures/PolygonWesternFrontier_Texture_04_B.png
+  artifactKey: Guid(662763321da31764a8ab0a87ff8a989d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Textures/PolygonWesternFrontier_Texture_04_B.png using Guid(662763321da31764a8ab0a87ff8a989d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5e42dc88f95cec474dcb6a9d19ab9fed') in 0.0217341 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd8c3f925fb4746bcd3a9d106be774a08') in 0.0227676 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GameSettings/PlayerSettings.asset
+  artifactKey: Guid(d869756ca3b2d8745a5892d55c8bc1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameSettings/PlayerSettings.asset using Guid(d869756ca3b2d8745a5892d55c8bc1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f9014c039376ae624360db0f43091f1') in 0.0023522 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Mexican_Wall_Corner_01.prefab
+  artifactKey: Guid(88bc482bb8237a74fb6d37e3bdd83750) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Mexican_Wall_Corner_01.prefab using Guid(88bc482bb8237a74fb6d37e3bdd83750) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '40bcbda00813edebf981ee1d4b8a4a4f') in 0.0191956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph
+  artifactKey: Guid(a3d800b099a06e0478fb790c5e79057a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph using Guid(a3d800b099a06e0478fb790c5e79057a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ca504bf970c554b4a2a89b768bbc5362') in 0.0498758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Fort_Walkway_01.prefab
+  artifactKey: Guid(9554ca16439150d4590bafd9e427fbcc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Fort_Walkway_01.prefab using Guid(9554ca16439150d4590bafd9e427fbcc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fc1ab094609c2e75d01008805a9ce80d') in 0.0154092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scripts/Character/CharacterMover.cs
+  artifactKey: Guid(8666c1d8199752c4c94f917c21ef2238) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/Character/CharacterMover.cs using Guid(8666c1d8199752c4c94f917c21ef2238) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9da5b3e84f4ac675352aae243aa57f77') in 0.0131452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Mexican_Wall_Small_02.prefab
+  artifactKey: Guid(0ebb33a8f45457841b175e3e2b155981) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Mexican_Wall_Small_02.prefab using Guid(0ebb33a8f45457841b175e3e2b155981) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd8c709b659163f0026854050a83623ef') in 0.016902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Materials/Misc/Background Card_01_Material.mat
+  artifactKey: Guid(cb065acf2e30e80429666c58d6bb0b48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Materials/Misc/Background Card_01_Material.mat using Guid(cb065acf2e30e80429666c58d6bb0b48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3da06ea5ea0a38c90543de64404e6b78') in 0.0134483 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6dc2d68ba643c59e56372768ef077c72') in 0.0137104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonWesternFrontier/Materials/Alts/PolygonWesternFrontier_Texture_03_C.mat
+  artifactKey: Guid(45b94b1a78f1d6e4b9deb4c879340800) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Materials/Alts/PolygonWesternFrontier_Texture_03_C.mat using Guid(45b94b1a78f1d6e4b9deb4c879340800) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6a46ea583e60e558404f0fefa20a670f') in 0.0156279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scripts/Player/Player.cs
+  artifactKey: Guid(85e8b53a572d19b46ad2e424bbff254b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/Player/Player.cs using Guid(85e8b53a572d19b46ad2e424bbff254b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '41d878642fe1384144145a478304ab4d') in 0.0115922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scripts/ScriptableObjects/SwordScriptableObject.cs
+  artifactKey: Guid(8fc10d963ef19ac49b3b324967cb3bd4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/ScriptableObjects/SwordScriptableObject.cs using Guid(8fc10d963ef19ac49b3b324967cb3bd4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7ea6a0355b47ed367096d1ba76c385bd') in 0.0129728 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1be3f8271d9ead4d6dd4250a03932762') in 0.0132708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Veh_Wagon_Jail_01.fbx
+  artifactKey: Guid(8f721c679d6a2dc42aa758fd888e0188) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Veh_Wagon_Jail_01.fbx using Guid(8f721c679d6a2dc42aa758fd888e0188) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9526f80d989c204a7c2eaed31ee753cf') in 0.0309691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Characters/Character_Priest_Male_01.prefab
+  artifactKey: Guid(5b0f99eedb8337d45bf411c119c9bc3d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Characters/Character_Priest_Male_01.prefab using Guid(5b0f99eedb8337d45bf411c119c9bc3d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e7b6d829b5b044c1142ca8a31ebcd36e') in 0.055186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 187
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Angled_03.prefab
+  artifactKey: Guid(c41fefb2ed2626741b5d5acf162f2a19) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Angled_03.prefab using Guid(c41fefb2ed2626741b5d5acf162f2a19) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1d6978a74c5383c417a4f79c1d277dab') in 0.0197953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Teepee_01.prefab
+  artifactKey: Guid(d0cec343765de0445ace37eb2a2f5ed3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Teepee_01.prefab using Guid(d0cec343765de0445ace37eb2a2f5ed3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5fda2436a1cf8e4ef63c586502dd7307') in 0.0169003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_BackgroundCard_03.prefab
+  artifactKey: Guid(3c9ab8d546ebf5e4c8a2bc8f91642a08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_BackgroundCard_03.prefab using Guid(3c9ab8d546ebf5e4c8a2bc8f91642a08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'de404cfed9b0bfa4884e1c74e3eb3a7b') in 0.0153331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Quarry_Chimney_01.prefab
+  artifactKey: Guid(332f7eddde8fb9443aba7f8d5147a8cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Quarry_Chimney_01.prefab using Guid(332f7eddde8fb9443aba7f8d5147a8cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1b6d802fb6290521d188f969beda5580') in 0.0173019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Quarry_05.prefab
+  artifactKey: Guid(bb7312493aeeaca439c634c7ef5edf46) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Quarry_05.prefab using Guid(bb7312493aeeaca439c634c7ef5edf46) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f0f149c4a80fde2a8c3ecff4d81d8785') in 0.0225744 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Cactus_Large_01.prefab
+  artifactKey: Guid(5062c27c7d396614c96b4d09d814f40d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Cactus_Large_01.prefab using Guid(5062c27c7d396614c96b4d09d814f40d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '945ac72ab5b77641224ca6401bedec09') in 0.0183449 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Angled_02.prefab
+  artifactKey: Guid(a39e2adc69d6fca44914463a489f81d4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Angled_02.prefab using Guid(a39e2adc69d6fca44914463a489f81d4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '644b87b5bf29592cf8e2108994a2ec25') in 0.0190646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Characters/Character_Thug_Male_02.prefab
+  artifactKey: Guid(2800e28c41ed28b4ea3758261ca1499a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Characters/Character_Thug_Male_02.prefab using Guid(2800e28c41ed28b4ea3758261ca1499a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8fcc1a79d45989502d491b402d21cad3') in 0.0263273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 187
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Grass_Desert_01.prefab
+  artifactKey: Guid(232230736ca35364491649faf7d527f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Grass_Desert_01.prefab using Guid(232230736ca35364491649faf7d527f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6ed9fb3c985bc1c2a3ef1a71ed6f27ba') in 0.017988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Characters/Character_NativeAmericanWarrior_Male_01.prefab
+  artifactKey: Guid(82c04d2fd21b5dc42a7294a75eaa4436) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Characters/Character_NativeAmericanWarrior_Male_01.prefab using Guid(82c04d2fd21b5dc42a7294a75eaa4436) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '06f480c3a312c2721250efd536fb6e7c') in 0.0290504 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 187
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Wall_02.prefab
+  artifactKey: Guid(d245fd157cf756a40a93cf38c658a0b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Wall_02.prefab using Guid(d245fd157cf756a40a93cf38c658a0b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ffffa7206fea4221292267d61dab2169') in 0.0155299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Ending_Block_01.prefab
+  artifactKey: Guid(e9ae61f6b450958418f813c3d5cfe8b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Ending_Block_01.prefab using Guid(e9ae61f6b450958418f813c3d5cfe8b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1174eeb0db84946100d9aac7a1cd33d6') in 0.0175572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Tunnel_03.prefab
+  artifactKey: Guid(a588904ff38b55c458ecc7c79d4199d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Tunnel_03.prefab using Guid(a588904ff38b55c458ecc7c79d4199d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cf2319748bc901a1d03e136cae67f0ad') in 0.0170453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Reeds_02.prefab
+  artifactKey: Guid(d569ef382638f10438632174e50f9c1c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Reeds_02.prefab using Guid(d569ef382638f10438632174e50f9c1c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c1ab30dacbdbc375c23d3971d35ed2a4') in 0.0148472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mound_Hill_02.prefab
+  artifactKey: Guid(966b33e4a5f694f49b91126445255337) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mound_Hill_02.prefab using Guid(966b33e4a5f694f49b91126445255337) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2e706c892157034e6bdf0c4c8290f953') in 0.015885 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mound_Large_02.prefab
+  artifactKey: Guid(f877ba9d08fd65b4c9a2195c29d46043) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mound_Large_02.prefab using Guid(f877ba9d08fd65b4c9a2195c29d46043) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '83c4e951f8704cee1c94e8ebff4579f8') in 0.0194311 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Reeds_03.prefab
+  artifactKey: Guid(4ff69948dc40dcc4c9649855f6c289dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Reeds_03.prefab using Guid(4ff69948dc40dcc4c9649855f6c289dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '07bf307914a91bf48d3fb44fa7ac32cc') in 0.0156499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Cross_01.prefab
+  artifactKey: Guid(24136dee65b34d5439385d0ed85dbb7d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Cross_01.prefab using Guid(24136dee65b34d5439385d0ed85dbb7d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fb28a7a63719e11efdc1606880eb3265') in 0.0211184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Tunnel_Angled_01.prefab
+  artifactKey: Guid(bdaef464d44289d4d96c5271d969fdb5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Tunnel_Angled_01.prefab using Guid(bdaef464d44289d4d96c5271d969fdb5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e8994d5fee7b58eccbc08848df95958f') in 0.0157572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Frame_03.prefab
+  artifactKey: Guid(fa9e908ac34c898438889447deecec1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Frame_03.prefab using Guid(fa9e908ac34c898438889447deecec1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '82e80946e086ec67f3ae97fcc9f1bf98') in 0.0191268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Straight_03.prefab
+  artifactKey: Guid(34db555e435cb6042949ba1b1a95a5a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Straight_03.prefab using Guid(34db555e435cb6042949ba1b1a95a5a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd102c9fb01a66f8a1f6a92bec43ab8fa') in 0.0153074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Road_Round_01.prefab
+  artifactKey: Guid(0494383efaa5afb40993d7b2076cf371) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Road_Round_01.prefab using Guid(0494383efaa5afb40993d7b2076cf371) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd8f0c1b165f111e9d13366fcb9e8a2f0') in 0.0160142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Alcohol_Barrel_01.prefab
+  artifactKey: Guid(38ae44bf488483743bd531d15508d69f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Alcohol_Barrel_01.prefab using Guid(38ae44bf488483743bd531d15508d69f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '19e0d831d2db31c843bbae5a4a6be548') in 0.0160632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Generic/SM_Generic_Cloud_02.prefab
+  artifactKey: Guid(42a64506ab785e146aaca9a32af14f43) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Generic/SM_Generic_Cloud_02.prefab using Guid(42a64506ab785e146aaca9a32af14f43) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4c116e7abcf722c93dd4d2ef6b05ea6a') in 0.0158966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Road_Straight_01.prefab
+  artifactKey: Guid(a8391ee1d4ac4674c94e8458e473b000) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Road_Straight_01.prefab using Guid(a8391ee1d4ac4674c94e8458e473b000) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ea4010ebb6553951863dc8c02674c27d') in 0.0148142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_River_Corner_R_02.prefab
+  artifactKey: Guid(87bcc2b20880ccb4baaa7833961ebd0c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_River_Corner_R_02.prefab using Guid(87bcc2b20880ccb4baaa7833961ebd0c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2cea392ccd051d124287ced34d84a6fd') in 0.0164974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Arrow_01.prefab
+  artifactKey: Guid(bd38de4c558e48c408ab422c0bfa3aa3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Arrow_01.prefab using Guid(bd38de4c558e48c408ab422c0bfa3aa3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f22d9acd56563c1b8bb01fb8eeec411e') in 0.0151783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_River_Straight_05.prefab
+  artifactKey: Guid(951364fa969a0a04ba1f81a7176d6d31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_River_Straight_05.prefab using Guid(951364fa969a0a04ba1f81a7176d6d31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '09f31a6c0c93db382bec4a8f370f5d7c') in 0.0145337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_ShrubGrass_01.prefab
+  artifactKey: Guid(65b84d74a62057c4093c5566e0c0f07f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_ShrubGrass_01.prefab using Guid(65b84d74a62057c4093c5566e0c0f07f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '22ec7f18e1faf7152399ea6aa13d3161') in 0.0151659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Generic/SM_Generic_Ground_01.prefab
+  artifactKey: Guid(f88e5a25e4517044fa3d3fde9a85fa70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Generic/SM_Generic_Ground_01.prefab using Guid(f88e5a25e4517044fa3d3fde9a85fa70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dd032b5a34e582c8f3d55c3bd43900f8') in 0.0199374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_River_Straight_02.prefab
+  artifactKey: Guid(f513ae7c177e5e643b55cc02dfa268ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_River_Straight_02.prefab using Guid(f513ae7c177e5e643b55cc02dfa268ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bedf8946ed982103e73a95a2ebdec616') in 0.0159898 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Generic/SM_Generic_Ground_Flat_01.prefab
+  artifactKey: Guid(96763b22b987cd944be576d435d1acac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Generic/SM_Generic_Ground_Flat_01.prefab using Guid(96763b22b987cd944be576d435d1acac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0af1460ca58728ddbd440d3ca5fd303d') in 0.0192842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Tunnel_Curved_01.prefab
+  artifactKey: Guid(329818f9d441fa244908108958fa4429) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Tunnel_Curved_01.prefab using Guid(329818f9d441fa244908108958fa4429) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f1c955dfe9e1273d69c5dbe6c02df045') in 0.0163255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Tunnel_Wide_End_01.prefab
+  artifactKey: Guid(358c59a25a65e5a4099ee106fdcab10c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Tunnel_Wide_End_01.prefab using Guid(358c59a25a65e5a4099ee106fdcab10c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7428c7f6a9e652d3c42ae6d2dae185da') in 0.0195779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_PlantPot_03.prefab
+  artifactKey: Guid(bf25e09e0cbf31347b919ee4c9eda186) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_PlantPot_03.prefab using Guid(bf25e09e0cbf31347b919ee4c9eda186) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '32c69f6092f99da6804514c99566d826') in 0.0156089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_WaterTrough_01.prefab
+  artifactKey: Guid(2f321d6e57702ba499433af725b95352) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_WaterTrough_01.prefab using Guid(2f321d6e57702ba499433af725b95352) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '009722686d509263dc598659c6443088') in 0.0172885 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_GoldPan_01.prefab
+  artifactKey: Guid(50e941f4f04deb84dbf10968dbac3c42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_GoldPan_01.prefab using Guid(50e941f4f04deb84dbf10968dbac3c42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '95ee740237c9cc4397ba11c302082220') in 0.016266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Canoe_01.prefab
+  artifactKey: Guid(985b789d9bd48724faad4ef1ccb09677) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Canoe_01.prefab using Guid(985b789d9bd48724faad4ef1ccb09677) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '04ba3f7f828bac89ca7db05a38630e44') in 0.0181338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Entrance_01.prefab
+  artifactKey: Guid(6b8740ee700724c4690ccb36c43da73b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Entrance_01.prefab using Guid(6b8740ee700724c4690ccb36c43da73b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4077949be1aa2afc16e46c44444a41be') in 0.0197511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Photo_03.prefab
+  artifactKey: Guid(e15603d47c318bc4d9dfc3aa30808366) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Photo_03.prefab using Guid(e15603d47c318bc4d9dfc3aa30808366) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f9812fee27ba489c5c252f2336faf42f') in 0.0260686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Tnt_Bundle_01.prefab
+  artifactKey: Guid(bdf6e9ecd6bc1c449ad0e9ae4e412161) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Tnt_Bundle_01.prefab using Guid(bdf6e9ecd6bc1c449ad0e9ae4e412161) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a1d13d82bf9692cb7faed756c9b83cfa') in 0.0200367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_TotemPole_01.prefab
+  artifactKey: Guid(f0ec768316b28c241a358b2d69c94c03) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_TotemPole_01.prefab using Guid(f0ec768316b28c241a358b2d69c94c03) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'afed97fb384f88dd8b3feeaef9e1cb4d') in 0.0189426 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Log_01.prefab
+  artifactKey: Guid(3d0da2bfa097d174f868f26302c397e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Log_01.prefab using Guid(3d0da2bfa097d174f868f26302c397e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0ef3de7761d88f7c61cacf9ef578227f') in 0.0241125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Weapons/SM_Wep_Rifle_01.prefab
+  artifactKey: Guid(0267fbb609476414682f06cfeb8621eb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Weapons/SM_Wep_Rifle_01.prefab using Guid(0267fbb609476414682f06cfeb8621eb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e71809f875902e309b725e44b7349037') in 0.0189346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat
+  artifactKey: Guid(22262639920f43d6be32430e4e58350d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat using Guid(22262639920f43d6be32430e4e58350d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a16f976aef9d078888ad6b3a9b979bdd') in 0.0211917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Vehicles/SM_Veh_Wagon_Shop_01.prefab
+  artifactKey: Guid(1107c1c7dce495a4b8fbcb1af8e3d566) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Vehicles/SM_Veh_Wagon_Shop_01.prefab using Guid(1107c1c7dce495a4b8fbcb1af8e3d566) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4ab8e6855846498985a77aef89f084e4') in 0.0215618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 68
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Anton OFL.txt
+  artifactKey: Guid(73a79399807f4e8388c2cbb5494681ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Anton OFL.txt using Guid(73a79399807f4e8388c2cbb5494681ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f81b16a17f6ce6c84c23678eae7c6d2e') in 0.0146236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_WoodBox_01.prefab
+  artifactKey: Guid(b3247f5b42d0a1f429a254f73bff9e66) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_WoodBox_01.prefab using Guid(b3247f5b42d0a1f429a254f73bff9e66) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '85ab947c8582b64b97600320cc9ae006') in 0.0212614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_WashingLine_02.prefab
+  artifactKey: Guid(90d927add719e9544b4905e0fdf76a25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_WashingLine_02.prefab using Guid(90d927add719e9544b4905e0fdf76a25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '992ca42fac0ccbbc447e4bef90a45ba1') in 0.019317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Crate_02.prefab
+  artifactKey: Guid(b5ac376bfda70684db43cca2770a849f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Crate_02.prefab using Guid(b5ac376bfda70684db43cca2770a849f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '98ccfd023eee0f43a5773fb3e0b62656') in 0.0218541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Weapons/SM_Wep_Shotgun_01.prefab
+  artifactKey: Guid(e8f88c5eb5045fe4baef3c073a1397ef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Weapons/SM_Wep_Shotgun_01.prefab using Guid(e8f88c5eb5045fe4baef3c073a1397ef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9055946facc734bc362883379c4be95c') in 0.0200889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs
+  artifactKey: Guid(f970ea55f9f84bf79b05dab180b8c125) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs using Guid(f970ea55f9f84bf79b05dab180b8c125) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '29dcd7ec7a1f994e778ac710a41dbc29') in 0.0155669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs
+  artifactKey: Guid(2787a46a4dc848c1b4b7b9307b614bfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs using Guid(2787a46a4dc848c1b4b7b9307b614bfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'da95acf5f8ffb216209ccd8678568e0e') in 0.0161016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs
+  artifactKey: Guid(a4b6f99e8bc54541bbd149b014ff441c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs using Guid(a4b6f99e8bc54541bbd149b014ff441c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3ca9b7b026890b6f49705bd21f38d4a5') in 0.0189263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs
+  artifactKey: Guid(9eff140b25d64601aabc6ba32245d099) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs using Guid(9eff140b25d64601aabc6ba32245d099) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'be88591a5415278c72c0b3f0cdd1d64e') in 0.0198172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs
+  artifactKey: Guid(53d91f98a2664f5cb9af11de72ac54ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs using Guid(53d91f98a2664f5cb9af11de72ac54ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4bd392b1af3f7768a8e9042c4c4f27ab') in 0.0158843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs
+  artifactKey: Guid(4f19c7f94c794c5097d8bd11e39c750d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs using Guid(4f19c7f94c794c5097d8bd11e39c750d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e30920f2fa3892bf7d09ef19d31f289c') in 0.016805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Gold_Ingot_01.prefab
+  artifactKey: Guid(d46a426e1ce74704da2701b035a5bc2e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Gold_Ingot_01.prefab using Guid(d46a426e1ce74704da2701b035a5bc2e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f3ec7b179bef6e85687eb2f02f68a886') in 0.0181036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs
+  artifactKey: Guid(f7cfa58e417a46ea8889989684c2522e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs using Guid(f7cfa58e417a46ea8889989684c2522e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9f0714754a50441e8537db3c24ac2059') in 0.0128973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs
+  artifactKey: Guid(d736ce056cf444ca96e424f4d9c42b76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs using Guid(d736ce056cf444ca96e424f4d9c42b76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '227db28f8d00c9a5f85660a6be1820db') in 0.0221695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs
+  artifactKey: Guid(91b8ba3d52e041fab2d0e0f169855539) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs using Guid(91b8ba3d52e041fab2d0e0f169855539) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fe3a982903e612dedc6e411c5ccc500b') in 0.0162867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs
+  artifactKey: Guid(e4e0d9ccee5f4950be8979268c9014e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs using Guid(e4e0d9ccee5f4950be8979268c9014e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '24d1720d5f5f5ddffc67de077df2bde2') in 0.0192941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/128x128/Icons_Attach.png
+  artifactKey: Guid(4da72fd249891db41bb7818e8256c381) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/128x128/Icons_Attach.png using Guid(4da72fd249891db41bb7818e8256c381) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '70f28cbd60a81817e6972badf4ac9567') in 0.021912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/128x128/Icons_ArrowUp.png
+  artifactKey: Guid(016c82d4131a63d4eb30c8e9fd0205e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/128x128/Icons_ArrowUp.png using Guid(016c82d4131a63d4eb30c8e9fd0205e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a42efba694c87bee1c4a72a8f7926cb5') in 0.0203756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Unity.ttf
+  artifactKey: Guid(f4eec857a4fdf2f43be0e9f3d1a984e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Unity.ttf using Guid(f4eec857a4fdf2f43be0e9f3d1a984e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '282f21947f5270ae4edef1ac145f8189') in 0.0335771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/256x256/Icons_Coins.png
+  artifactKey: Guid(dd7d678a5d19cb543816757f11f40c39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/256x256/Icons_Coins.png using Guid(dd7d678a5d19cb543816757f11f40c39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5d6007d0c126e737852e9b128e012459') in 0.0223197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/128x128/Icons_Random.png
+  artifactKey: Guid(79c0531b54deaf94587f5d3d03c172fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/128x128/Icons_Random.png using Guid(79c0531b54deaf94587f5d3d03c172fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bc28713b591e9427d01693202daea3fe') in 0.0271897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/128x128/Icons_Mute.png
+  artifactKey: Guid(451fcd69832324a4c93450267243c739) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/128x128/Icons_Mute.png using Guid(451fcd69832324a4c93450267243c739) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '37f31618cfa91d9e8a31d18e5b3a1673') in 0.026695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/128x128/Icons_Export.png
+  artifactKey: Guid(f89f6277a6aad4c4193a40578344f356) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/128x128/Icons_Export.png using Guid(f89f6277a6aad4c4193a40578344f356) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '77a439edbec024588c0dc92ca5119752') in 0.0206386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/128x128/Icons_Quest.png
+  artifactKey: Guid(8a9a01d73909bc7429c00bf97d08c4b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/128x128/Icons_Quest.png using Guid(8a9a01d73909bc7429c00bf97d08c4b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '788badb49558d4fa00bcae45404b5c89') in 0.0244518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/256x256/Icons_Undo.png
+  artifactKey: Guid(6de17bbbab94a5d40b6e9cbb441c86c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/256x256/Icons_Undo.png using Guid(6de17bbbab94a5d40b6e9cbb441c86c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b1ed4e3f8b134bb55df33c2b09ff0808') in 0.0213366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/256x256/Icons_Power.png
+  artifactKey: Guid(ace6575c90f603f40892bb0f728dc446) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/256x256/Icons_Power.png using Guid(ace6575c90f603f40892bb0f728dc446) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '41135fb04defb920959e50cc4eb82864') in 0.026594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Potion2.png
+  artifactKey: Guid(ec001db9c6cba4147b7b390fdca722c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Potion2.png using Guid(ec001db9c6cba4147b7b390fdca722c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fd5ac53722c81ea10322c2c2c7d4697a') in 0.0218149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Menu2.png
+  artifactKey: Guid(76433ff157e1fed499b0ea8365861b08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Menu2.png using Guid(76433ff157e1fed499b0ea8365861b08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b2dcd63065ef183f06ab929bb3392860') in 0.0200547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Magnify2.png
+  artifactKey: Guid(5d52d1f17c647c8439c4ea9ca641ab14) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Magnify2.png using Guid(5d52d1f17c647c8439c4ea9ca641ab14) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e00408037a38c616d5024de0675f49fd') in 0.0207196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg
+  artifactKey: Guid(6eb184de103d4b3f812b38561065192f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg using Guid(6eb184de103d4b3f812b38561065192f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2deff152d78bfbd5622a08add326fcf1') in 0.0197785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity
+  artifactKey: Guid(349f38d3606449708c7340d26740e1e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity using Guid(349f38d3606449708c7340d26740e1e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7e9e3046bdfb6fffced37bf460dec657') in 0.0174125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/PSD/Icons_ArrowRight.psd
+  artifactKey: Guid(273c6527e766e15448c264d9a0380e88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/PSD/Icons_ArrowRight.psd using Guid(273c6527e766e15448c264d9a0380e88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dd7ec478f1a0ef68929f2f931e01759d') in 0.0244838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/PSD/Icons_Profile.psd
+  artifactKey: Guid(5c0faa4b356b4d74fbdfc53838505519) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/PSD/Icons_Profile.psd using Guid(5c0faa4b356b4d74fbdfc53838505519) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c72f49d0f5fe517906bec0b8f01b1d5e') in 0.0251761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Random2.png
+  artifactKey: Guid(df1564f398054f34e9948c84c11c0ae9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Random2.png using Guid(df1564f398054f34e9948c84c11c0ae9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ff324ac7e7fe434b73c112de7ce553b8') in 0.0266996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/PSD/Icons_ArrowDown.psd
+  artifactKey: Guid(90f1d3f4576e3b049b9d4374e4739d94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/PSD/Icons_ArrowDown.psd using Guid(90f1d3f4576e3b049b9d4374e4739d94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f009be57365b5b20ae9989f564654282') in 0.0248236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/PSD/Icons_Settings.psd
+  artifactKey: Guid(56cfca191b57156418a473878002c322) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/PSD/Icons_Settings.psd using Guid(56cfca191b57156418a473878002c322) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '81759d2726ba1c5372f778cb2ca6f2f4') in 0.0220169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_X2.png
+  artifactKey: Guid(f9694c350b818004685d2bd0dcfa6fff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/64x64/Icons_X2.png using Guid(f9694c350b818004685d2bd0dcfa6fff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '750d808d15d7024a2ba54bc984eae800') in 0.0236913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/256x256/Icons_ArrowLeft.png
+  artifactKey: Guid(0a83b9c5f66d5bb4f9caa1d1fbd1129d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/256x256/Icons_ArrowLeft.png using Guid(0a83b9c5f66d5bb4f9caa1d1fbd1129d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '171c95cf71059b26e6803f100d868f92') in 0.0199151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/128x128/Icons_Quest.png
+  artifactKey: Guid(4b68619fde209ac4f83cfc70b6bfd1c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/128x128/Icons_Quest.png using Guid(4b68619fde209ac4f83cfc70b6bfd1c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0e0bbb83b6fb66f6c5dd6674901da2c8') in 0.0227378 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/128x128/Icons_Magnify.png
+  artifactKey: Guid(aad5971861436fb4f9609bacbebe902e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/128x128/Icons_Magnify.png using Guid(aad5971861436fb4f9609bacbebe902e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9ea2a7418c2cfc3cca611a91c428aa87') in 0.0205832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/128x128/Icons_Random.png
+  artifactKey: Guid(9c28f8159223342499d91445a8aa9a47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/128x128/Icons_Random.png using Guid(9c28f8159223342499d91445a8aa9a47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e34e6d52306a11662e64a09e026ac98d') in 0.0230323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/128x128/Icons_ArrowDown.png
+  artifactKey: Guid(8a1d85b08fc8132489396965071ad2af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/128x128/Icons_ArrowDown.png using Guid(8a1d85b08fc8132489396965071ad2af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a0634c56ad1a34fc70db2712362177c4') in 0.028691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/256x256/Icons_Attach.png
+  artifactKey: Guid(c6cf0d19788b45449b8a1b02657d0479) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/256x256/Icons_Attach.png using Guid(c6cf0d19788b45449b8a1b02657d0479) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0a012c45ec9f673d277abbe5c4e6dccf') in 0.0191813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Help_Rounded.png
+  artifactKey: Guid(d1f170cd259b421488c8409390e73f41) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Help_Rounded.png using Guid(d1f170cd259b421488c8409390e73f41) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '510c8f87ddd6b2be88d5defce0780c9f') in 0.0212086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/256x256/Icons_Sound.png
+  artifactKey: Guid(f39fec40a2c2df14b93267059616fb01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/256x256/Icons_Sound.png using Guid(f39fec40a2c2df14b93267059616fb01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '38a267cf203cd8cb35fcd39db45208d1') in 0.0199615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_ArrowUp_Rounded.png
+  artifactKey: Guid(420627a0105fcef49b8eca2cea9e5bb0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_ArrowUp_Rounded.png using Guid(420627a0105fcef49b8eca2cea9e5bb0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6b7ce315d9ad36c90258ecb8c13d6b61') in 0.0210246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_ArrowRight_Rounded.png
+  artifactKey: Guid(d9e7552c4dc85fb4aad8056d94a966c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_ArrowRight_Rounded.png using Guid(d9e7552c4dc85fb4aad8056d94a966c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '07aaf0e997dc4f379388467a2b2c3d54') in 0.0237992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/256x256/Icons_Power.png
+  artifactKey: Guid(f6f79e2be0ff77d4788ad8c730adf089) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/256x256/Icons_Power.png using Guid(f6f79e2be0ff77d4788ad8c730adf089) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e58f12545eaafc38f88ae8e9fb64d515') in 0.0186833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Export_Rounded.png
+  artifactKey: Guid(726b916d26fc61243ab77338d5ec6ae9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Export_Rounded.png using Guid(726b916d26fc61243ab77338d5ec6ae9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '37544845b3a5c9990ebd6efee6b5469e') in 0.0205795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/128x128/Icons_Profile.png
+  artifactKey: Guid(bfba0eff736dea44cb859211e7ab3aef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/128x128/Icons_Profile.png using Guid(bfba0eff736dea44cb859211e7ab3aef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '27daef8679a95739852a7e4644fb915d') in 0.0194601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Menu_Rounded.png
+  artifactKey: Guid(686827562db985041af7050d4f4c03c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Menu_Rounded.png using Guid(686827562db985041af7050d4f4c03c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '397bfc2dbc990541ab7ca165f868f75f') in 0.0255496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/PSD/Icons_ArrowLeft.psd
+  artifactKey: Guid(f1155a5c538f7e9488fdbce80d733fc2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/PSD/Icons_ArrowLeft.psd using Guid(f1155a5c538f7e9488fdbce80d733fc2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c214874db686d0cbe25dc8785c1349ad') in 0.0240423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Random_Rounded.png
+  artifactKey: Guid(a8950efcfdc38e148aa97b2cba37d4a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Random_Rounded.png using Guid(a8950efcfdc38e148aa97b2cba37d4a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5b93ae4ac7fcad6763c128248f7885d4') in 0.0192887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/PSD/Icons_Door.png
+  artifactKey: Guid(8fb91eb8d941028429911d581f40dfdd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/PSD/Icons_Door.png using Guid(8fb91eb8d941028429911d581f40dfdd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c6266d77d43209a12af33b80c8ea377c') in 0.0212971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/PSD/Icons_Coins.png
+  artifactKey: Guid(dac503e6329af864296002064bb67cd6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/PSD/Icons_Coins.png using Guid(dac503e6329af864296002064bb67cd6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '32d47e3f1810911fd5e0c5ce387fbe92') in 0.0183816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/PSD/Icons_ArrowUp.png
+  artifactKey: Guid(f0f56be06d54e7e4c8834dc5239fbbc5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/PSD/Icons_ArrowUp.png using Guid(f0f56be06d54e7e4c8834dc5239fbbc5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6ddd0e243f429fca21db040e2213dc28') in 0.0184083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/10 - Bullets & Numbered List Example.unity
+  artifactKey: Guid(c3f814e1d12c45568daf3dd9a86a0e61) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/10 - Bullets & Numbered List Example.unity using Guid(c3f814e1d12c45568daf3dd9a86a0e61) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '103fed9c130b5711398ceed958feec2e') in 0.0123961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Base_Angled_04.prefab
+  artifactKey: Guid(7fe63fa19b5f07d44adcbe997dd8cdfa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Track_Base_Angled_04.prefab using Guid(7fe63fa19b5f07d44adcbe997dd8cdfa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e273be9def7d93c612a17b36583b8a86') in 0.0165917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/PSD/Icons_Undo.png
+  artifactKey: Guid(cae6ea90aa8ef924db9c43efca514399) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/PSD/Icons_Undo.png using Guid(cae6ea90aa8ef924db9c43efca514399) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e37f0f1507f72081b7ff42d062a61e84') in 0.0185384 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/PSD/Icons_Undo.psd
+  artifactKey: Guid(540370762b622104cbd69afa52708329) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/PSD/Icons_Undo.psd using Guid(540370762b622104cbd69afa52708329) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8128b40edda6b0aa80ec21d87506cb4e') in 0.0217265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/128x128/Icons_ArrowDown2.png
+  artifactKey: Guid(4d2664c35d7b0a242a0fbf39c7f23f59) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Square/128x128/Icons_ArrowDown2.png using Guid(4d2664c35d7b0a242a0fbf39c7f23f59) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8b3e777a7e118154bfecb33c195398cc') in 0.0179639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/PSD/Icons_Quest.png
+  artifactKey: Guid(53748c2310376cd41be1917b9ee56859) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/PSD/Icons_Quest.png using Guid(53748c2310376cd41be1917b9ee56859) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0a9ef08734c9871571e4d3988d4e2afc') in 0.019085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/128x128/Icons_Coins.png
+  artifactKey: Guid(84127f048a4f7d447a2ed33b952cbab2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Square/128x128/Icons_Coins.png using Guid(84127f048a4f7d447a2ed33b952cbab2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '28a5eb242578d2c6b0b8cfa6ead7923f') in 0.0224005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/PSD/Icons_Menu.png
+  artifactKey: Guid(fd87723c759e4834d95466fa7d2d2d5d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/PSD/Icons_Menu.png using Guid(fd87723c759e4834d95466fa7d2d2d5d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0989e7d800458de68a422bc317cc69a9') in 0.0230777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/128x128/Icons_Profile.png
+  artifactKey: Guid(079d1b31443785e4b8302a85217f36b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Square/128x128/Icons_Profile.png using Guid(079d1b31443785e4b8302a85217f36b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '23c097e8e45ffa51bc070026f47380ba') in 0.0217394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/256x256/Icons_Attach.png
+  artifactKey: Guid(0eb5656e3a16a7d42b1df7c1ba5d1c1b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Square/256x256/Icons_Attach.png using Guid(0eb5656e3a16a7d42b1df7c1ba5d1c1b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fa9405a53c615960301dd48823bad525') in 0.0207085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/128x128/Icons_Medal.png
+  artifactKey: Guid(d7a158df6005af84aad37c692c014a97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Square/128x128/Icons_Medal.png using Guid(d7a158df6005af84aad37c692c014a97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bf5716afb91778f677a2fe629091eda1') in 0.0191384 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/256x256/Icons_ArrowUp.png
+  artifactKey: Guid(67264231666a64b4f83d13d234bae74e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Square/256x256/Icons_ArrowUp.png using Guid(67264231666a64b4f83d13d234bae74e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4f0a8c30d881a703783b808cb03f7570') in 0.0186564 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/128x128/Icons_Random.png
+  artifactKey: Guid(5df64511c888a0340bd917d8814a5bc0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Square/128x128/Icons_Random.png using Guid(5df64511c888a0340bd917d8814a5bc0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2d50aa6695dda35728ad38aed922f3ba') in 0.0189781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/128x128/Icons_Help.png
+  artifactKey: Guid(bddc2a069e2aad448980b6a8512233ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Square/128x128/Icons_Help.png using Guid(bddc2a069e2aad448980b6a8512233ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ec0dacda359782223ec671c17226f4a1') in 0.020127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/128x128/Icons_Potion.png
+  artifactKey: Guid(c762289b80a66584cb68615fa60323c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Square/128x128/Icons_Potion.png using Guid(c762289b80a66584cb68615fa60323c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '16d728b2a2f469b27cd0d2f2b6ea971a') in 0.0181054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/256x256/Icons_X.png
+  artifactKey: Guid(015497f1f6a4bfb43a1d2fa4f7e865e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Square/256x256/Icons_X.png using Guid(015497f1f6a4bfb43a1d2fa4f7e865e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '43bc66284a80a46fd59836563c5cd70e') in 0.0205871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Quest.png
+  artifactKey: Guid(7ccf54e1b29bf0844972177b7800da88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Quest.png using Guid(7ccf54e1b29bf0844972177b7800da88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '40294d637fa40dd72e43ed0a6a15fb0e') in 0.0227072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/256x256/Icons_Sound.png
+  artifactKey: Guid(8299932135fe6084796ea96cbab6581a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Square/256x256/Icons_Sound.png using Guid(8299932135fe6084796ea96cbab6581a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2aeb2276f39bbbbf230a875e1339e7e1') in 0.0208233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_ArrowLeft.png
+  artifactKey: Guid(bed2a4f62a27d5445a3f20454a2ed7f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_ArrowLeft.png using Guid(bed2a4f62a27d5445a3f20454a2ed7f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b405a4266af0281f2936f52a365242f6') in 0.0203832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Help.png
+  artifactKey: Guid(f06325e413e87f04197c4782e79056ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Square/64x64/Icons_Help.png using Guid(f06325e413e87f04197c4782e79056ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3753de13256698d4af8b92abd86ef6a9') in 0.0183531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/256x256/Icons_Trophy.png
+  artifactKey: Guid(ff4609b54ffb9244cb147a6bf9f16435) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Square/256x256/Icons_Trophy.png using Guid(ff4609b54ffb9244cb147a6bf9f16435) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a68893bf7629452e358469a45a6bfac0') in 0.0237746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/PSD/Icons_Attach.psd
+  artifactKey: Guid(5a22b64491a6f1a42932dda1a0bbb31d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Square/PSD/Icons_Attach.psd using Guid(5a22b64491a6f1a42932dda1a0bbb31d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'da12fe19617e5402f469052c09ca6483') in 0.0243325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat
+  artifactKey: Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat using Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f93ba840bdbad7d68c5c61af3ece73a7') in 0.014975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/PSD/Icons_ArrowUp.psd
+  artifactKey: Guid(03e52f8b17903b44da7ab935e93a49ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Square/PSD/Icons_ArrowUp.psd using Guid(03e52f8b17903b44da7ab935e93a49ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '78ede1a159979c6730a897034f348cb9') in 0.019802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/PSD/Icons_Power.psd
+  artifactKey: Guid(8c705a77ac3b66d44b7c2861b3999741) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Square/PSD/Icons_Power.psd using Guid(8c705a77ac3b66d44b7c2861b3999741) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f2ef5872af6b6c964b585247b2a4a971') in 0.0253031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/PSD/Icons_Potion.psd
+  artifactKey: Guid(1860179612a1f5d40953375e75325574) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Square/PSD/Icons_Potion.psd using Guid(1860179612a1f5d40953375e75325574) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0ec074b792893ae2772ee4fac8dab371') in 0.0188176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Square/PSD/Icons_Export.psd
+  artifactKey: Guid(ec2375c6057d1b546a8e0b21086a81f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Square/PSD/Icons_Export.psd using Guid(ec2375c6057d1b546a8e0b21086a81f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '321ff343b37d41410b7efd1c46ebd595') in 0.0242783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Weapons/SM_Wep_Spear_01.prefab
+  artifactKey: Guid(7ab88746780ce9b4bb0fb9674a8bbb25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Weapons/SM_Wep_Spear_01.prefab using Guid(7ab88746780ce9b4bb0fb9674a8bbb25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dac017fa949cb7ca4d8529639dedce9c') in 0.0156674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonWesternFrontier/Models/SM_Env_Road_Straight_01.fbx
+  artifactKey: Guid(2f74863ab5c2dd7439f8704b850a0795) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Models/SM_Env_Road_Straight_01.fbx using Guid(2f74863ab5c2dd7439f8704b850a0795) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'df240e019207403d6093e1fecc93d236') in 0.025757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat
+  artifactKey: Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat using Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f5f5dfb5d58fb729c2c87d267f5c2a1b') in 0.0254398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat
+  artifactKey: Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat using Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2ee4a77cc3f8809811a9f2b321525ad2') in 0.0286604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF - HDRP LIT - Bloom.mat
+  artifactKey: Guid(8d176c01131de8f46ad61094e29d79b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF - HDRP LIT - Bloom.mat using Guid(8d176c01131de8f46ad61094e29d79b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e081665dfcc7b535c24ea23aeec910f4') in 0.0240708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Chest_01.prefab
+  artifactKey: Guid(60ce03615d103bb409d877a4519c303d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Chest_01.prefab using Guid(60ce03615d103bb409d877a4519c303d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '637b475f211bd97f3035707309f20c04') in 0.0176167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF
+  artifactKey: Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF using Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c4143fc65b2a181628920344220a98c8') in 0.0139697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs
+  artifactKey: Guid(dc20866c0d5e413ab7559440e15333ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs using Guid(dc20866c0d5e413ab7559440e15333ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bdcf3b1f1021bddc837858ee5cbc37e7') in 0.0109832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Clean/PSD/Icons_Cart.psd
+  artifactKey: Guid(bdf3373cc12a77c4bbf0cbc5c8540673) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Clean/PSD/Icons_Cart.psd using Guid(bdf3373cc12a77c4bbf0cbc5c8540673) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '59e3b6f00014ca09b8ef66098f67b541') in 0.0172099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Pipes_01.prefab
+  artifactKey: Guid(5998243df1ceded4e826f7be8d44d2c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Props/SM_Prop_Pipes_01.prefab using Guid(5998243df1ceded4e826f7be8d44d2c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '43b54abdf0ddcd732f370775a102e88c') in 0.0156825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Quarry_Tower_02.prefab
+  artifactKey: Guid(d5159607c674e704b98e3338ea39247b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Buildings/SM_Bld_Quarry_Tower_02.prefab using Guid(d5159607c674e704b98e3338ea39247b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3287d7ebf5db96a6195a5280c987b6b7') in 0.0149811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Modern & Clean GUI/Icons/Rounded/PSD/Icons_Sound.psd
+  artifactKey: Guid(48eb6bae2ecb74e4fa54f4477c0e8eb1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Modern & Clean GUI/Icons/Rounded/PSD/Icons_Sound.psd using Guid(48eb6bae2ecb74e4fa54f4477c0e8eb1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '96794f4a63a334272bc78fcc55d149bc') in 0.0189864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GameSettings/EnemyRifleSettings.asset
+  artifactKey: Guid(e5234962d504bcd489c746f5309bf1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameSettings/EnemyRifleSettings.asset using Guid(e5234962d504bcd489c746f5309bf1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43989a12c911322bc9f0e5ea8c27a577') in 0.0012917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Wall_High_02.prefab
+  artifactKey: Guid(c8894ad5d188f1a45849c93405a643a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PolygonWesternFrontier/Prefabs/Environments/SM_Env_Mine_Wall_High_02.prefab using Guid(c8894ad5d188f1a45849c93405a643a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f14d3846eb64caf0b26fd093686686c4') in 0.0168204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.216 seconds
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.274 seconds
+Domain Reload Profiling: 2483ms
+	BeginReloadAssembly (370ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (24ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (77ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (713ms)
+		LoadAssemblies (575ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (310ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (274ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1274ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (994ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (265ms)
+			ProcessInitializeOnLoadAttributes (595ms)
+			ProcessInitializeOnLoadMethodAttributes (101ms)
+			AfterProcessingInitializeOnLoad (24ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 1.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6774 unused Assets / (4.4 MB). Loaded Objects now: 7636.
+Memory consumption went from 157.9 MB to 153.5 MB.
+Total: 19.573000 ms (FindLiveObjects: 1.691500 ms CreateObjectMapping: 1.132800 ms MarkObjects: 12.549100 ms  DeleteObjects: 4.198300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

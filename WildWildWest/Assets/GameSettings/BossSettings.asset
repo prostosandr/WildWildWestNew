@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8ddc57b294100947b51f5f2f9f26ff3, type: 3}
+  m_Name: BossSettings
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterScriptableObject
+  Health: 150
+  GravityForce: 10
+  MinVerticalVelocity: -2
+  MoveSpeed: 5.2
+  RotateSpeed: 10
+  FirearmsAngleOffset: 70
+  MeleAngleOffset: 0
+  StepsClips:
+  - {fileID: 8300000, guid: fc06a2b7dd30f1b49b4b6e781e6dc6ed, type: 3}
+  - {fileID: 8300000, guid: db9f79c59f31c824780476b6ae582c51, type: 3}
+  - {fileID: 8300000, guid: 811757b08f9faa348bc0cffc3114fab7, type: 3}
+  - {fileID: 8300000, guid: 6b7630b7e3a742d4081258e3cba8049c, type: 3}
+  DelayBetweenSteps: 0.3
+  MinPitchSteps: 0.5
+  MaxPitchSteps: 1
+  TakeDamageClip: {fileID: 8300000, guid: a097ca298946ec6489727ba9d3bdc762, type: 3}
+  DeadClip: {fileID: 8300000, guid: 779a4ddf2a2bf4742a4e3cdc29503a16, type: 3}
