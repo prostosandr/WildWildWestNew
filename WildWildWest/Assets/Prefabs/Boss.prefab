@@ -560,6 +560,8 @@ GameObject:
   - component: {fileID: 3479209476842951352}
   - component: {fileID: 6057806030014684596}
   - component: {fileID: 7824942832093591412}
+  - component: {fileID: 6478232666962982902}
+  - component: {fileID: 6337712819148465492}
   - component: {fileID: 9211584802223357665}
   - component: {fileID: 4642528524546493110}
   - component: {fileID: 4815471760912228160}
@@ -649,9 +651,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb520e528651c1d41a273f3bae4c94fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  _settings: {fileID: 11400000, guid: 191c3cfb3c19fb04abb69cec690c9661, type: 2}
-  _rigBuilder: {fileID: 4815471760912228160}
-  _bloodEffect: {fileID: 5009283789256827736}
+  Settings: {fileID: 11400000, guid: 191c3cfb3c19fb04abb69cec690c9661, type: 2}
+  BloodEffect: {fileID: 5009283789256827736}
   _spineIK: {fileID: 3640901360894335224}
   _elbowIK: {fileID: 4496984311804008358}
   _minDictanceToTarget: 10
@@ -717,6 +718,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 639b9764ec0a804418cb76d88b6b8396, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerAudio
+  _audioSource: {fileID: 4642528524546493110}
+  _audioGroups:
+  - Type: 0
+    Clips:
+    - {fileID: 8300000, guid: fc06a2b7dd30f1b49b4b6e781e6dc6ed, type: 3}
+    - {fileID: 8300000, guid: db9f79c59f31c824780476b6ae582c51, type: 3}
+    - {fileID: 8300000, guid: 811757b08f9faa348bc0cffc3114fab7, type: 3}
+    - {fileID: 8300000, guid: 6b7630b7e3a742d4081258e3cba8049c, type: 3}
+    Volume: 1
+    MinPitch: 0.5
+    MaxPitch: 1
+    Cooldown: 0.3
+  - Type: 1
+    Clips:
+    - {fileID: 8300000, guid: a097ca298946ec6489727ba9d3bdc762, type: 3}
+    Volume: 1
+    MinPitch: 0.5
+    MaxPitch: 1
+    Cooldown: 0
+  - Type: 2
+    Clips:
+    - {fileID: 8300000, guid: 779a4ddf2a2bf4742a4e3cdc29503a16, type: 3}
+    Volume: 1
+    MinPitch: 0.5
+    MaxPitch: 1
+    Cooldown: 0
 --- !u!114 &7824942832093591412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -729,11 +756,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 020e9222adbf8fc49aca3fa377bad4a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HandHandler
-  _weapons:
-  - {fileID: 85111230651583199}
   _bulletContainer: {fileID: 0}
   _aimTarget: {fileID: 0}
   _meleAttackZone: {fileID: 0}
+--- !u!114 &6478232666962982902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2157861494029883510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f874917d7bef19345ad5cc84fb02dd6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponChanger
+  _weapons:
+  - {fileID: 85111230651583199}
+--- !u!114 &6337712819148465492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2157861494029883510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf1211bd72e8e8046b6cd14a2b4e7d38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Attacker
 --- !u!114 &9211584802223357665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -872,6 +923,7 @@ GameObject:
   - component: {fileID: 6060604679420424226}
   - component: {fileID: 4356194938382940854}
   - component: {fileID: 7639939419410941102}
+  - component: {fileID: 3054616849911109272}
   m_Layer: 7
   m_Name: Sword
   m_TagString: Untagged
@@ -1061,6 +1113,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Sword
   _settigs: {fileID: 0}
+--- !u!114 &3054616849911109272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2218214885369833736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639b9764ec0a804418cb76d88b6b8396, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioPlayer
+  _audioSource: {fileID: 0}
+  _audioGroups: []
 --- !u!1 &2228864416831612055
 GameObject:
   m_ObjectHideFlags: 0
@@ -2609,6 +2675,10 @@ PrefabInstance:
       propertyPath: _settings
       value: 
       objectReference: {fileID: 11400000, guid: a25fee28adf7adf4b8e109d89518a58a, type: 2}
+    - target: {fileID: 4681497332151026259, guid: 564efb0c8f1984a44b0ae93e650d1899, type: 3}
+      propertyPath: Prefab
+      value: 
+      objectReference: {fileID: 4474856660330876089, guid: 649ee380f302c3d438a020a170f43e59, type: 3}
     - target: {fileID: 7130887048203368142, guid: 564efb0c8f1984a44b0ae93e650d1899, type: 3}
       propertyPath: m_Name
       value: AK48

@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 4259442877901998319}
   - component: {fileID: 4039842384911535329}
   - component: {fileID: 7315368807551038830}
-  - component: {fileID: 4306642677900367298}
   - component: {fileID: 7426588252107565262}
+  - component: {fileID: 8072447588604192708}
+  - component: {fileID: 4306642677900367298}
   m_Layer: 6
   m_Name: Sword
   m_TagString: Untagged
@@ -92,6 +93,40 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7426588252107565262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891048293804872699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2fb084d79b956742bfea3d8faa021c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Sword
+  _settigs: {fileID: 0}
+--- !u!114 &8072447588604192708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891048293804872699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639b9764ec0a804418cb76d88b6b8396, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioPlayer
+  _audioSource: {fileID: 4306642677900367298}
+  _audioGroups:
+  - Type: 4
+    Clips:
+    - {fileID: 8300000, guid: f832e7e24b8830f468c9f10f716288fd, type: 3}
+    Volume: 1
+    MinPitch: 0.5
+    MaxPitch: 1
+    Cooldown: 0
 --- !u!82 &4306642677900367298
 AudioSource:
   m_ObjectHideFlags: 0
@@ -149,7 +184,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -189,16 +224,3 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &7426588252107565262
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 891048293804872699}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2fb084d79b956742bfea3d8faa021c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Sword
-  _settigs: {fileID: 0}

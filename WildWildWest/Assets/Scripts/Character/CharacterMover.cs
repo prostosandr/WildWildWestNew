@@ -2,9 +2,10 @@ using UnityEngine;
 
 public class CharacterMover : MonoBehaviour 
 {
+    [SerializeField] private float _smoothTime = 0.1f;
+
     private Vector3 _currentVelocity;
     private Vector3 _smoothVelocity;
-    [SerializeField] private float _smoothTime = 0.1f;
 
     private CharacterController _controller;
     private float _moveSpeed;

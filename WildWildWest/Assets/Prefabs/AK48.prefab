@@ -158,6 +158,7 @@ GameObject:
   - component: {fileID: 2883030864086905272}
   - component: {fileID: 3848086518705717006}
   - component: {fileID: 4681497332151026259}
+  - component: {fileID: 8301326301782685289}
   - component: {fileID: 1662974091191098307}
   m_Layer: 6
   m_Name: AK48
@@ -286,6 +287,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50aae84986ff27f4c8b83502466a12cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BulletSpawner
+  Container: {fileID: 0}
+  Prefab: {fileID: 0}
+--- !u!114 &8301326301782685289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7130887048203368142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639b9764ec0a804418cb76d88b6b8396, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioPlayer
+  _audioSource: {fileID: 1662974091191098307}
+  _audioGroups:
+  - Type: 3
+    Clips:
+    - {fileID: 8300000, guid: bcf7001e3e309b047abdc4dfcb7a0c5a, type: 3}
+    Volume: 1
+    MinPitch: 0.5
+    MaxPitch: 1
+    Cooldown: 0
 --- !u!82 &1662974091191098307
 AudioSource:
   m_ObjectHideFlags: 0

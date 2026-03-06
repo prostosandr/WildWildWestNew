@@ -1,18 +1,19 @@
-using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(WeaponChanger))]
+[RequireComponent(typeof(Attacker))]
 public class CharacterHandHandler : MonoBehaviour
 {
-    [SerializeField] private List<Weapon> _weapons;
     [SerializeField] private Transform _bulletContainer;
     [SerializeField] private Transform _aimTarget;
     [SerializeField] private Transform _meleAttackZone;
 
-    private Weapon _currentWeapon;
-    private int _currentIndex;
+    private WeaponChanger _weaponChanger;
+    private Attacker _attacker;
 
-    private bool _isMeleWeapon;
-    public bool IsMeleWeapon => _isMeleWeapon;
+    private bool _canWork;
+
+    public bool IsMeleeWeapon => _attacker.IsMelee;
 
     public void SetData(Transform bulletContainer, Transform aimTarget)
     {
@@ -22,59 +23,34 @@ public class CharacterHandHandler : MonoBehaviour
 
     public void Initialize()
     {
-        if (_weapons.Count > 1)
-        {
-            for (int i = 1; i < _weapons.Count; i++)
-            {
-                InitializeWeapons(i);
-            }
-        }
+        GetComponents();
 
-        _currentWeapon = _weapons[0];
-        InitializeWeapons(0);
-        _currentWeapon.gameObject.SetActive(true);
-        _currentIndex = 0;
+        _weaponChanger.Initialize(_bulletContainer, _aimTarget, _meleAttackZone);
+        _attacker.Initialize(_weaponChanger);
 
-        _isMeleWeapon = _currentWeapon.IsMeleWeapon;
+        _canWork = true;
     }
 
     public void ChangeWeapon()
     {
-        _currentWeapon.gameObject.SetActive(false);
-        _currentIndex = (_currentIndex + 1) % _weapons.Count;
-
-        _currentWeapon = _weapons[_currentIndex];
-        _currentWeapon.gameObject.SetActive(true);
-
-        _isMeleWeapon = _currentWeapon.IsMeleWeapon;
+        if (_canWork)
+            _weaponChanger.NextWeapon();
     }
 
     public void Attack()
     {
-        _currentWeapon.Attack();
+        if (_canWork)
+            _attacker.Attack();
     }
 
-    public void DamageToCharacter()
+    public void Deactivate()
     {
-        _currentWeapon.DamageToCharacter();
+        _canWork = false;
     }
 
-    public void DeactivateWeapon()
+    private void GetComponents()
     {
-        _currentWeapon.gameObject.SetActive(false);
-    }
-
-    private void InitializeWeapons(int weaponIndex)
-    {
-        if (_weapons[weaponIndex].TryGetComponent(out Sword sword))
-        {
-            sword.Initialize(_meleAttackZone);
-            sword.gameObject.SetActive(false);
-        }
-        else if (_weapons[weaponIndex].TryGetComponent(out Rifle rifle))
-        {
-            rifle.Initialize(_bulletContainer, _aimTarget);
-            rifle.gameObject.SetActive(false);
-        }
+        _weaponChanger = GetComponent<WeaponChanger>();
+        _attacker = GetComponent<Attacker>();
     }
 }

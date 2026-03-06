@@ -33,7 +33,6 @@ public class Bullet : MonoBehaviour, IPolledObject<Bullet>
     {    
         _mover.Initialize(_rigidbody, speed);
         _lifeCycle.Initialize(lifeTime, damage);
-
         _mover.SetDirection(direction);  
     }
 

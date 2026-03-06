@@ -4,8 +4,8 @@ using UnityEngine.UI;
 
 public class PlayerUserInterface : MonoBehaviour
 {
-    [SerializeField] private WaveManager _waveManager;
-    [SerializeField] private CharacterHealth _health;
+    [SerializeField] private WaveDirector _waveManager;
+    [SerializeField] private Health _health;
     [SerializeField] private LevelReset _levelRestet;
     [SerializeField] private HealthBar _healthBar;
     [SerializeField] private Button _restartButton;
@@ -22,8 +22,8 @@ public class PlayerUserInterface : MonoBehaviour
 
     private void OnEnable()
     {
-        _waveManager.OnTextChanged += ChangeWaveText;
-        _waveManager.OnWin += OpenWinPanel;
+        _waveManager.TextChanged += ChangeWaveText;
+        _waveManager.WavesComleted += OpenWinPanel;
         _health.HealthChanged += _healthBar.SetHealth;
         _health.OnDead += OpenLosePanel;
         _restartButton.onClick.AddListener(_levelRestet.RestartLevel);
@@ -31,8 +31,8 @@ public class PlayerUserInterface : MonoBehaviour
 
     private void OnDisable()
     {
-        _waveManager.OnTextChanged -= ChangeWaveText;
-        _waveManager.OnWin -= OpenWinPanel;
+        _waveManager.TextChanged -= ChangeWaveText;
+        _waveManager.WavesComleted -= OpenWinPanel;
         _health.HealthChanged -= _healthBar.SetHealth;
         _health.OnDead -= OpenLosePanel;
         _restartButton.onClick.RemoveListener(_levelRestet.RestartLevel);

@@ -6,6 +6,7 @@ public class BulletLifeCycle : MonoBehaviour
 {
     private float _damage;
     private float _lifeTime;
+
     private WaitForSeconds _wait;
     private Coroutine _lifeCycle;
 
@@ -16,9 +17,7 @@ public class BulletLifeCycle : MonoBehaviour
         if (other.gameObject.TryGetComponent(out Character character))
         {
             Vector3 position = other.ClosestPoint(transform.position);
-
             Vector3 direction = transform.position - position;
-
             Quaternion rotation;
 
             if (direction != Vector3.zero)
@@ -36,9 +35,7 @@ public class BulletLifeCycle : MonoBehaviour
     {
         _lifeTime = lifeTime;
         _damage = damage;
-
         _wait = new WaitForSeconds(_lifeTime);
-
         _lifeCycle = StartCoroutine(StartLifeCycle(_wait));
     }
 

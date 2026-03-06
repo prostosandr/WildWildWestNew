@@ -29,50 +29,51 @@ public class Enemy : Character, IPolledObject<Enemy>
 
     protected override void Update()
     {
-        if (_canLiving)
+        if (CanLiving)
         {
             _targetDirection = GetTargetDirection();
 
             if (_canShoot)
-                _handler.Attack();
+                Handler.Attack();
 
             base.Update();
 
-            _audio.PlayStepsClip(_targetDirection.sqrMagnitude > 0.1f);
+            if (_targetDirection.sqrMagnitude > 0.1f)
+                AudioPlayer.Play(AudioType.Steps);
         }
     }
 
     public void Initialize(Transform target, Vector3 position, Transform bulletContainer)
     {
-        _characterController.enabled = false;
+        CharacterController.enabled = false;
 
         _target = target;
         transform.position = position;
 
-        _characterController.enabled = true;
-        _rigBuilder.enabled = true;
+        CharacterController.enabled = true;
+        RigBuilder.enabled = true;
 
-        _handler.SetData(bulletContainer, target);
-        _handler.Initialize();
+        Handler.SetData(bulletContainer, target);
+        Handler.Initialize();
 
         _spineIK = SetTargetIK(_spineIK);
         _elbowIK = SetTargetIK(_elbowIK);
 
-        _rigBuilder.Build();
+        RigBuilder.Build();
     }
 
     protected override void HandleMoving()
     {
         base.HandleMoving();
 
-        _mover.Move(_targetDirection, _gravity.VerticalVelocity);
-        _rotator.Rotate(_target.position);
+        Mover.Move(_targetDirection, Gravity.VerticalVelocity);
+        Rotator.Rotate(_target.position);
     }
 
     protected override void UpdateAnimations()
     {
-        _animator.SetRunAnimation(_targetDirection);
-        _animator.SetIdleAnimation(_handler.IsMeleWeapon);
+        Animator.SetRunAnimation(_targetDirection);
+        Animator.SetIdleAnimation(Handler.IsMeleeWeapon);
     }
 
     protected override void Die()

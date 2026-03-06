@@ -691,6 +691,8 @@ GameObject:
   - component: {fileID: 2482254290239392920}
   - component: {fileID: 4363292309393031829}
   - component: {fileID: 8015561926915334697}
+  - component: {fileID: 5159546458225443273}
+  - component: {fileID: 2385471776205185408}
   - component: {fileID: 6956908514376746369}
   - component: {fileID: 3935558381056195566}
   - component: {fileID: 4622184067250398051}
@@ -782,9 +784,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85e8b53a572d19b46ad2e424bbff254b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  _settings: {fileID: 11400000, guid: d869756ca3b2d8745a5892d55c8bc1ad, type: 2}
-  _rigBuilder: {fileID: 4622184067250398051}
-  _bloodEffect: {fileID: 2381880012127816824}
+  Settings: {fileID: 11400000, guid: d869756ca3b2d8745a5892d55c8bc1ad, type: 2}
+  BloodEffect: {fileID: 2381880012127816824}
   _input: {fileID: 0}
 --- !u!114 &2567467368840829090
 MonoBehaviour:
@@ -847,6 +848,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 639b9764ec0a804418cb76d88b6b8396, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerAudio
+  _audioSource: {fileID: 3935558381056195566}
+  _audioGroups:
+  - Type: 0
+    Clips:
+    - {fileID: 8300000, guid: fc06a2b7dd30f1b49b4b6e781e6dc6ed, type: 3}
+    - {fileID: 8300000, guid: db9f79c59f31c824780476b6ae582c51, type: 3}
+    - {fileID: 8300000, guid: 811757b08f9faa348bc0cffc3114fab7, type: 3}
+    - {fileID: 8300000, guid: 6b7630b7e3a742d4081258e3cba8049c, type: 3}
+    Volume: 1
+    MinPitch: 0.5
+    MaxPitch: 1
+    Cooldown: 0.3
+  - Type: 1
+    Clips:
+    - {fileID: 8300000, guid: a097ca298946ec6489727ba9d3bdc762, type: 3}
+    Volume: 1
+    MinPitch: 0.5
+    MaxPitch: 1
+    Cooldown: 0
+  - Type: 2
+    Clips:
+    - {fileID: 8300000, guid: 779a4ddf2a2bf4742a4e3cdc29503a16, type: 3}
+    Volume: 1
+    MinPitch: 0.5
+    MaxPitch: 1
+    Cooldown: 0
 --- !u!114 &8015561926915334697
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -859,11 +886,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 020e9222adbf8fc49aca3fa377bad4a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HandHandler
-  _weapons:
-  - {fileID: 6538889863154930083}
   _bulletContainer: {fileID: 0}
   _aimTarget: {fileID: 0}
-  _meleAttackZone: {fileID: 0}
+  _meleAttackZone: {fileID: 7613581872695227186}
+--- !u!114 &5159546458225443273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3340306992820513844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f874917d7bef19345ad5cc84fb02dd6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponChanger
+  _weapons:
+  - {fileID: 6538889863154930083}
+  - {fileID: 5921737353514077969}
+--- !u!114 &2385471776205185408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3340306992820513844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf1211bd72e8e8046b6cd14a2b4e7d38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Attacker
 --- !u!114 &6956908514376746369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -890,7 +942,7 @@ AudioSource:
   m_Resource: {fileID: 8300000, guid: 84803d4225d16c24cb1beda6ad4c94a0, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.3
-  m_Pitch: 0.5
+  m_Pitch: 3
   Loop: 0
   Mute: 0
   Spatialize: 0
@@ -2683,6 +2735,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4259442877901998319, guid: 77ec17c5611345c4d870cd4713e21c59, type: 3}
   m_PrefabInstance: {fileID: 3836704135800661983}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &5921737353514077969 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7426588252107565262, guid: 77ec17c5611345c4d870cd4713e21c59, type: 3}
+  m_PrefabInstance: {fileID: 3836704135800661983}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2fb084d79b956742bfea3d8faa021c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Sword
 --- !u!1001 &8267580753775403035
 PrefabInstance:
   m_ObjectHideFlags: 0

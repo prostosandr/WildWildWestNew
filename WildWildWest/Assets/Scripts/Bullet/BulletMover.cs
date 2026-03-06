@@ -3,6 +3,7 @@ using UnityEngine;
 public class BulletMover : MonoBehaviour
 {
     private float _speed;
+
     private Rigidbody _rigidbody;
 
     public void Initialize(Rigidbody rigidbody, float speed)

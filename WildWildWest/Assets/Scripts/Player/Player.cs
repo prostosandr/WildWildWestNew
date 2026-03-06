@@ -8,20 +8,21 @@ public class Player : Character
     {
         base.OnEnable();
 
-        _handler.Initialize();
+        Handler.Initialize();
     }
 
     protected override void Update()
     {
-        if (_canLiving)
+        if (CanLiving)
         {
             base.Update();
             HandleChangingWeapon();
 
             if (_input.IsLMBPressed)
-                _handler.Attack();
+                Handler.Attack();
 
-            _audio.PlayStepsClip(_input.MoveDirection.sqrMagnitude > 0.1f);
+            if (_input.MoveDirection.sqrMagnitude > 0.1f)
+                AudioPlayer.Play(AudioType.Steps);
         }
     }
 
@@ -29,32 +30,32 @@ public class Player : Character
     {
         base.HandleMoving();
 
-        _mover.Move(_input.MoveDirection, _gravity.VerticalVelocity);
-        _rotator.Rotate(_input.CursorPosition);
+        Mover.Move(_input.MoveDirection, Gravity.VerticalVelocity);
+        Rotator.Rotate(_input.CursorPosition);
     }
 
     protected override void UpdateAnimations()
     {
-        _animator.SetRunAnimation(_input.MoveDirection);
-        _animator.SetIdleAnimation(_handler.IsMeleWeapon);
-        _animator.SetMeleAttackAnimation(_input.IsLMBPressed && _handler.IsMeleWeapon);
+        Animator.SetRunAnimation(_input.MoveDirection);
+        Animator.SetIdleAnimation(Handler.IsMeleeWeapon);
+        Animator.SetMeleAttackAnimation(_input.IsLMBPressed && Handler.IsMeleeWeapon);
     }
 
     private void HandleChangingWeapon()
     {
         if (_input.IsQPressed)
         {
-            _handler.ChangeWeapon();
+            Handler.ChangeWeapon();
 
-            if (_handler.IsMeleWeapon)
+            if (Handler.IsMeleeWeapon)
             {
-                _rigBuilder.enabled = false;
-                _rotator.SetAngle(_settings.MeleAngleOffset);
+                RigBuilder.enabled = false;
+                Rotator.SetAngle(Settings.MeleAngleOffset);
             }
             else
             {
-                _rigBuilder.enabled = true;
-                _rotator.SetAngle(_settings.FirearmsAngleOffset);
+                RigBuilder.enabled = true;
+                Rotator.SetAngle(Settings.FirearmsAngleOffset);
             }
         }
     }
