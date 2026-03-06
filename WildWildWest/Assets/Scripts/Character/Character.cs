@@ -11,7 +11,7 @@ using UnityEngine.Animations.Rigging;
 [RequireComponent(typeof(Health))]
 [RequireComponent(typeof(CharacterHandHandler))]
 [RequireComponent(typeof(AudioPlayer))]
-public abstract class Character : MonoBehaviour, IDamageble
+public abstract class Character : MonoBehaviour, IDamageable
 {
     [Header("Character components")]
     [SerializeField] protected CharacterConfig Settings;

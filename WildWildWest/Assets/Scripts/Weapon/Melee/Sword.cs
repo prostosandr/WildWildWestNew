@@ -38,7 +38,7 @@ public class Sword : Weapon
         {
             Collider hit = _hitResult[i];
 
-            if (hit.gameObject.TryGetComponent(out IDamageble damagebleItem))
+            if (hit.gameObject.TryGetComponent(out IDamageable damagebleItem))
             {
                 _contactPoint = hit.ClosestPoint(_attackZone.transform.position);
                 _direction = (_contactPoint - _attackZone.transform.position).normalized;
