@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class PlayerUserInterface : MonoBehaviour
 {
-    [SerializeField] private WaveSequence _waveManager;
+    [SerializeField] private WaveSequence _waveSequence;
     [SerializeField] private Health _health;
     [SerializeField] private LevelReset _levelRestet;
     [SerializeField] private HealthBar _healthBar;
@@ -22,8 +22,8 @@ public class PlayerUserInterface : MonoBehaviour
 
     private void OnEnable()
     {
-        _waveManager.TextChanged += ChangeWaveText;
-        _waveManager.WavesComleted += OpenWinPanel;
+        _waveSequence.TextChanged += ChangeWaveText;
+        _waveSequence.WavesComleted += OpenWinPanel;
         _health.HealthChanged += _healthBar.SetHealth;
         _health.OnDead += OpenLosePanel;
         _restartButton.onClick.AddListener(_levelRestet.RestartLevel);
@@ -31,8 +31,8 @@ public class PlayerUserInterface : MonoBehaviour
 
     private void OnDisable()
     {
-        _waveManager.TextChanged -= ChangeWaveText;
-        _waveManager.WavesComleted -= OpenWinPanel;
+        _waveSequence.TextChanged -= ChangeWaveText;
+        _waveSequence.WavesComleted -= OpenWinPanel;
         _health.HealthChanged -= _healthBar.SetHealth;
         _health.OnDead -= OpenLosePanel;
         _restartButton.onClick.RemoveListener(_levelRestet.RestartLevel);
@@ -52,8 +52,8 @@ public class PlayerUserInterface : MonoBehaviour
 
     private void ChangeWaveText()
     {
-        _waveText.text = $"Wave: {_waveManager.WaveIndex + 1}";
-        _enemiesText.text = $"Enemies: {_waveManager.EnemiesAlive}";
-        _bossesText.text = $"Bosses: {_waveManager.BossesAlive}";
+        _waveText.text = $"Wave: {_waveSequence.WaveIndex + 1}";
+        _enemiesText.text = $"Enemies: {_waveSequence.EnemiesAlive}";
+        _bossesText.text = $"Bosses: {_waveSequence.BossesAlive}";
     }
 }

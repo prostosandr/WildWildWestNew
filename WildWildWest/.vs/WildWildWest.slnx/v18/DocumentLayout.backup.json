@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Git\\WildWesNew\\WildWildWest\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\git\\wildwesnew\\wildwildwest\\assets\\scripts\\wavedirector\\wavesequence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wavedirector\\wavesequence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\git\\wildwesnew\\wildwildwest\\assets\\scripts\\wavedirector\\wavestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wavedirector\\wavestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\git\\wildwesnew\\wildwildwest\\assets\\scripts\\wavedirector\\wavedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wavedirector\\wavedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WaveSequence.cs",
+              "DocumentMoniker": "D:\\Git\\WildWesNew\\WildWildWest\\Assets\\Scripts\\WaveDirector\\WaveSequence.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WaveDirector\\WaveSequence.cs",
+              "ToolTip": "D:\\Git\\WildWesNew\\WildWildWest\\Assets\\Scripts\\WaveDirector\\WaveSequence.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WaveDirector\\WaveSequence.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAADwvxEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T03:31:50.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WaveState.cs",
+              "DocumentMoniker": "D:\\Git\\WildWesNew\\WildWildWest\\Assets\\Scripts\\WaveDirector\\WaveState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WaveDirector\\WaveState.cs",
+              "ToolTip": "D:\\Git\\WildWesNew\\WildWildWest\\Assets\\Scripts\\WaveDirector\\WaveState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WaveDirector\\WaveState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T03:30:17.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WaveData.cs",
+              "DocumentMoniker": "D:\\Git\\WildWesNew\\WildWildWest\\Assets\\Scripts\\WaveDirector\\WaveData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WaveDirector\\WaveData.cs",
+              "ToolTip": "D:\\Git\\WildWesNew\\WildWildWest\\Assets\\Scripts\\WaveDirector\\WaveData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WaveDirector\\WaveData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T03:30:08.94Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
