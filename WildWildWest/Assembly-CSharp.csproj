@@ -127,9 +127,9 @@
     <Compile Include="Assets\Scripts\WaveDirector\WaveState.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\Scripts\Spawner\IPolledObject.cs" />
+    <Compile Include="Assets\Scripts\WaveDirector\WaveSequence.cs" />
     <Compile Include="Assets\Scripts\Character\CharacterAnimator.cs" />
     <Compile Include="Assets\Scripts\Bullet\BulletMover.cs" />
-    <Compile Include="Assets\Scripts\WaveDirector\WaveDirector.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

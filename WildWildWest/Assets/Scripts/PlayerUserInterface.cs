@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class PlayerUserInterface : MonoBehaviour
 {
-    [SerializeField] private WaveDirector _waveManager;
+    [SerializeField] private WaveSequence _waveManager;
     [SerializeField] private Health _health;
     [SerializeField] private LevelReset _levelRestet;
     [SerializeField] private HealthBar _healthBar;
